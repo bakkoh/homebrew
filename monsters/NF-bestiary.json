@@ -119,27 +119,12 @@
 							{
 								"type": "entries",
 								"entries": [
-									"Preserver by the eternal frost of Iùrmen’s glaciers, these are the corpses of those who died during the wars that followed the Last Sun. Corpses that now raise from their graves of snow and darkness.",
-									{
-										"type": "entries",
-										"name": "Glacier Skeleton",
-										"entries": [
-											"test",
-											"test",
-											{
-												"name": "Glacier Skeleton",
-												"entries": [
-													"test"
-												],
-												"type": "entries"
-											}
-										]
-									},
+									"Preserved by the eternal frost of Iùrmen’s glaciers, these are the corpses of those who died during the wars that followed the Last Sun. Corpses that now raise from their graves of snow and darkness.",
 									{
 										"type": "inset",
-										"name": "Summoning Air Elementals",
+										"name": "Glacier Skeleton",
 										"entries": [
-											"Five aarakocra within 30 feet of each other can magically summon an air elemental. Each of the five must use its action and movement on three consecutive turns to perform an aerial dance and must maintain concentration while doing so (as if concentrating on a spell). When all five have finished their third turn of the dance, the elemental appears in an unoccupied space within 60 feet of them. It is friendly toward them and obeys their spoken commands. It remains for 1 hour, until it or all its summoners die, or until any of its summoners dismisses it as a bonus action. A summoner can't perform the dance again until it finishes a short rest. When the elemental returns to the Elemental Plane of Air, any aarakocra within 5 feet of it can return with it."
+											"Preserved by the eternal frost of Iùrmen’s glaciers, these are the corpses of those who died during the wars that followed the Last Sun. Corpses that now raise from their graves of snow and darkness."
 										]
 									}
 								]
@@ -281,14 +266,70 @@
 				"urban"
 			],
 			"fluff": {
+				"name": "Mazzamurello",
+				"source": "NFB",
 				"entries": [
-					"These faelings look like big lizards that walk on two legs, and show off, as if they were ornaments, tools of various kinds gathered who knows how. In the eras before the long night, these creatures used to live near the inhabited centers where they disturbed the population with their funny noises. ",
-					"Now, these faelings have developed a more reserved behavior: they live in small groups in mountain areas, or near swamps or other waterways, and exploit their cunning to rob lonely wayfarers.",
-					"Thieves of the way:",
-					"The Mazzamurellos are used to control the roads that pass through difficult and rugged terrain such as mountain passes, wades, and marshy walkways. These evil faelings wait for travelers to find themselves in difficulty and exploit their tools to cause small landslides or to cover directions and tracks. In addition, they use their ability to emit and imitate sounds to further mislead the unfortunate, tricking them into taking the most difficult of routes for fear of some unknown danger on the path that is actually safer to travel. ",
-					"When the exhausted and lost travelers stop to seek rest, the Mazzamurellos advance silently to stun or kill them with their small stone hammers, and then take all their possessions.",
-					"Collectors:",
-					"The Mazzamurellos seem particularly attracted by the weapons and objects of the wayfarers, which they then use to commit other robberies. It is said that by following a Mazzamurello secretly you can find the place where it hides its treasures, ranging from the most common objects to the most bizarre; from the most useless to the most precious."
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"These faelings look like big lizards that walk on two legs, and show off, as if they were ornaments, tools of various kinds gathered who knows how.",
+									"In the eras before the long night, these creatures used to live near the inhabited centers where they disturbed the population with their funny noises. Now, these faelings have developed a more reserved behavior: they live in small groups in mountain areas, or near swamps or other waterways, and exploit their cunning to rob lonely wayfarers.",
+									{
+										"type": "inset",
+										"name": "Thieves of the way",
+										"entries": [
+											"The Mazzamurellos are used to control the roads that pass through difficult and rugged terrain such as mountain passes, wades, and marshy walkways. These evil faelings wait for travelers to find themselves in difficulty and exploit their tools to cause small landslides or to cover directions and tracks. In addition, they use their ability to emit and imitate sounds to further mislead the unfortunate, tricking them into taking the most difficult of routes for fear of some unknown danger on the path that is actually safer to travel. . When the exhausted and lost travelers stop to seek rest, the Mazzamurellos advance silently to stun or kill them with their small stone hammers, and then take all their possessions."
+										]
+									},
+									{
+										"type": "inset",
+										"name": "Collectors",
+										"entries": [
+											"The Mazzamurellos seem particularly attracted by the weapons and objects of the wayfarers, which they then use to commit other robberies. It is said that by following a Mazzamurello secretly you can find the place where it hides its treasures, ranging from the most common objects to the most bizarre; from the most useless to the most precious."
+										]
+									},
+									{
+										"type": "inset",
+										"name": "Customs"
+									},
+									{
+										"type": "inset",
+										"name": "Place",
+										"entries": [
+											"The Mazzamurello can usually be found in mountainous, fluvial, and swampy areas. Some prefer burrows located under city houses."
+										]
+									},
+									{
+										"type": "inset",
+										"name": "Time",
+										"entries": [
+											"This faeling does not seem to be conditioned by specific periods."
+										]
+									},
+									{
+										"type": "inset",
+										"name": "Gesture",
+										"entries": [
+											"The Mazzamurellos who inhabit the wilderness tend to target lonely travelers, while the city dwellers prefer solitary people who have accumulated wealth and various objects."
+										]
+									}
+
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/mazzamurello-image.png"
+						}
+					}
 				]
 			},
 			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/mazzamurello.png",

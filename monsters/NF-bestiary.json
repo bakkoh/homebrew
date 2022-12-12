@@ -962,6 +962,184 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Gnefru",
+			"size": [
+				"S"
+			],
+			"type": "fey",
+			"source": "nfb",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item leather armor|phb} plus {@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d6 + 4",
+				"average": 18
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 12,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 12,
+			"cr": "1/2",
+			"page": 95,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languages": [
+				"Common",
+				"Wild Jargon"
+			],
+			"languageTags": [
+				"C"
+			],
+			"skill": {
+				"stealth": "+6",
+				"perception": "+2"
+			},
+			"save": {
+				"dex": "+4"
+			},
+			"conditionImmune": [
+				"charmed"
+			],
+			"trait": [
+				{
+					"name": "Blessing of the Dark",
+					"entries": [
+						"The Gnefru can normally see in darkness, both magical and non-magical, and can’t be {@condition charmed}."
+					]
+				},
+				{
+					"name": "Favored Terrain",
+					"entries": [
+						"The Gnefru’s favored terrain is forest."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Gnefru has advantage on saving throws against spells or magical effects."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"bonus": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The Gnefru can take the Disengage or the Hide Action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Gnefru can make two scimitar or two shortbow attacks on its turn."
+					]
+				},
+				{
+					"name": "Scimitar.",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6+2}) slashing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 80/120 ft., one target. {@h}5 ({@damage 1d6+2}) piercing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/gnefru.png",
+			"fluff": {
+				"entries": [
+					"These particularly disgusting-looking faelings give off a constant corpse smell and are particularly crude and dirty.",
+					"It is not very clear what the intentions of these creatures are, but they seem to be attracted to rot and excrement.",
+					"More than one village has found the remains of loved ones unearthed and scattered on the streets or inside homes, as well as doors and roofs smeared with manure from the fields. or excrement of beasts of burden.",
+					{
+						"type": "entries",
+						"name": "A dirty mission",
+						"entries": [
+									"Whatever the reason the Gnefru behave in this way, it seems that the creatures really care about their mission to soil any place and react very violently to anyone who opposes their misdeeds or tries to clean them up."
+								]
+					},
+					{
+						"type": "entries",
+						"name": "Carriers of diseases",
+						"entries": [
+									"The actions of the Gnefru gangs have rather tragic consequences. Entire villages have been completely abandoned once they became targets of these creatures. The remains of corpses and dirt easily attract diseases of all kinds and make the settlements uninhabitable."
+								]
+					},
+					{
+						"type": "entries",
+						"name": "Place",
+						"entries": [
+									"The Gnefru mainly infests small villages."
+								]
+					},
+					{
+						"type": "entries",
+						"name": "Time",
+						"entries": [
+									"The apparitions of the Gnefru are mainly concentrated in the hottest periods of the year."
+								]
+					},
+					{
+						"type": "entries",
+						"name": "Gesture",
+						"entries": [
+									"The Gnefru usually appears after the fields have been fertilized or when a funeral has just been celebrated."
+								]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/gnefru-image.png"
+						}
+					}
+				]
+			},
+			"environment": [
+				"small village",
+				"urban"
+			]
 		}
 	]
 }

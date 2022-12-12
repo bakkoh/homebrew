@@ -271,8 +271,8 @@
 					"These faelings look like big lizards that walk on two legs, and show off, as if they were ornaments, tools of various kinds gathered who knows how.",
 					"In the eras before the long night, these creatures used to live near the inhabited centers where they disturbed the population with their funny noises. Now, these faelings have developed a more reserved behavior: they live in small groups in mountain areas, or near swamps or other waterways, and exploit their cunning to rob lonely wayfarers.",
 					{
-						"name": "Thieves of the way",
 						"type": "entries",
+						"name": "Thieves of the way",
 						"entries": [
 									"The Mazzamurellos are used to control the roads that pass through difficult and rugged terrain such as mountain passes, wades, and marshy walkways. These evil faelings wait for travelers to find themselves in difficulty and exploit their tools to cause small landslides or to cover directions and tracks. In addition, they use their ability to emit and imitate sounds to further mislead the unfortunate, tricking them into taking the most difficult of routes for fear of some unknown danger on the path that is actually safer to travel. . When the exhausted and lost travelers stop to seek rest, the Mazzamurellos advance silently to stun or kill them with their small stone hammers, and then take all their possessions."
 								]
@@ -706,7 +706,7 @@
 				"M"
 			],
 			"type": "fey",
-			"source": "NightfellBestiary",
+			"source": "NFB",
 			"alignment": [
 				"C",
 				"N"
@@ -875,6 +875,93 @@
 			"miscTags": [
 				"MW"
 			]
+		},
+		{
+			"name": "Dipsa",
+			"size": [
+				"T"
+			],
+			"type": "beast",
+			"source": "nfb",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "4d4 + 4",
+				"average": 14
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 20
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 13,
+			"int": 5,
+			"wis": 10,
+			"cha": 5,
+			"passive": 12,
+			"cr": "1/2",
+			"page": 115,
+			"save": {
+				"dex": "+5"
+			},
+			"skill": {
+				"stealth": "+5",
+				"perception": "+2"
+			},
+			"trait": [
+				{
+					"name": "Indiscernible",
+					"entries": [
+						"When the Dipsa is in a natural environment and doesn’t move, it cannot be perceived without magical means."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) piercing damage. ",
+						"On a hit, target creature must make a {@dc 13} Constitution saving throw. On a failed save, the target is {@condition poisoned} and takes 22 ({@damage 4d10}) poison damage at the end of each of its next turns. If the target reaches 0 hit points in that manner, it dies."
+					]
+				}
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/dipsa.png",
+			"fluff": {
+				"entries": [
+					"This black snake is so tiny that it is almost invisible, also given its habit of wandering mainly in daytime darkness.",
+					{
+						"type": "entries",
+						"name": "Instant death",
+						"entries": [
+									"Despite its small size, this animal is extremely lethal, and it is said that its poison can kill even the most resistant creatures even before they realize they have been bitten. No remedy to its poison is yet known, as there has never been a chance to rescue a victim in time to save them."
+								]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/dipsa-image.png"
+						}
+					}
+				]
+			}
 		}
 	]
 }

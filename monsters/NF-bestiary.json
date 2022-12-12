@@ -21,7 +21,7 @@
 	"monster": [
 		{
 			"name": "Glacier Skeleton",
-			"source": "Nightfell",
+			"source": "NFB",
 			"size": [
 				"M"
 			],
@@ -154,7 +154,7 @@
 		},
 		{
 			"name": "Mazzamurello",
-			"source": "Nightfell",
+			"source": "NFB",
 			"size": [
 				"S"
 			],
@@ -269,58 +269,29 @@
 				"name": "Mazzamurello",
 				"source": "NFB",
 				"entries": [
+					"These faelings look like big lizards that walk on two legs, and show off, as if they were ornaments, tools of various kinds gathered who knows how.",
+					"In the eras before the long night, these creatures used to live near the inhabited centers where they disturbed the population with their funny noises. Now, these faelings have developed a more reserved behavior: they live in small groups in mountain areas, or near swamps or other waterways, and exploit their cunning to rob lonely wayfarers.",
 					{
+						"name": "Thieves of the way",
 						"type": "entries",
 						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									"These faelings look like big lizards that walk on two legs, and show off, as if they were ornaments, tools of various kinds gathered who knows how.",
-									"In the eras before the long night, these creatures used to live near the inhabited centers where they disturbed the population with their funny noises. Now, these faelings have developed a more reserved behavior: they live in small groups in mountain areas, or near swamps or other waterways, and exploit their cunning to rob lonely wayfarers.",
-									{
-										"type": "inset",
-										"name": "Thieves of the way",
-										"entries": [
-											"The Mazzamurellos are used to control the roads that pass through difficult and rugged terrain such as mountain passes, wades, and marshy walkways. These evil faelings wait for travelers to find themselves in difficulty and exploit their tools to cause small landslides or to cover directions and tracks. In addition, they use their ability to emit and imitate sounds to further mislead the unfortunate, tricking them into taking the most difficult of routes for fear of some unknown danger on the path that is actually safer to travel. . When the exhausted and lost travelers stop to seek rest, the Mazzamurellos advance silently to stun or kill them with their small stone hammers, and then take all their possessions."
-										]
-									},
-									{
-										"type": "inset",
-										"name": "Collectors",
-										"entries": [
-											"The Mazzamurellos seem particularly attracted by the weapons and objects of the wayfarers, which they then use to commit other robberies. It is said that by following a Mazzamurello secretly you can find the place where it hides its treasures, ranging from the most common objects to the most bizarre; from the most useless to the most precious."
-										]
-									},
-									{
-										"type": "inset",
-										"name": "Customs"
-									},
-									{
-										"type": "inset",
-										"name": "Place",
-										"entries": [
-											"The Mazzamurello can usually be found in mountainous, fluvial, and swampy areas. Some prefer burrows located under city houses."
-										]
-									},
-									{
-										"type": "inset",
-										"name": "Time",
-										"entries": [
-											"This faeling does not seem to be conditioned by specific periods."
-										]
-									},
-									{
-										"type": "inset",
-										"name": "Gesture",
-										"entries": [
-											"The Mazzamurellos who inhabit the wilderness tend to target lonely travelers, while the city dwellers prefer solitary people who have accumulated wealth and various objects."
-										]
-									}
-
+									"The Mazzamurellos are used to control the roads that pass through difficult and rugged terrain such as mountain passes, wades, and marshy walkways. These evil faelings wait for travelers to find themselves in difficulty and exploit their tools to cause small landslides or to cover directions and tracks. In addition, they use their ability to emit and imitate sounds to further mislead the unfortunate, tricking them into taking the most difficult of routes for fear of some unknown danger on the path that is actually safer to travel. . When the exhausted and lost travelers stop to seek rest, the Mazzamurellos advance silently to stun or kill them with their small stone hammers, and then take all their possessions."
 								]
-							}
+					},
+					{
+						"type": "entries",
+						"name": "Collectors",
+						"entries": [
+							"The Mazzamurellos seem particularly attracted by the weapons and objects of the wayfarers, which they then use to commit other robberies. It is said that by following a Mazzamurello secretly you can find the place where it hides its treasures, ranging from the most common objects to the most bizarre; from the most useless to the most precious."
 						]
-					}
+					},
+					{
+						"type": "entries",
+						"name": "City Mazzamurellos",
+						"entries": [
+							"Not all Mazzamurellos are native to mountain lands. Some live in towns, attracted by the large amount of material they can steal. These Mazzamurellos enter the houses from holes and cracks in the walls of the cellars or basements , from which they then infiltrate the walls of the whole house Once inside they usually pound the walls with their clubs, frightening and leading the tenants to exasperation."
+						]
+					}	
 				],
 				"images": [
 					{
@@ -361,7 +332,7 @@
 		},
 		{
 			"name": "Rotten Arisen",
-			"source": "Nightfell",
+			"source": "NFB",
 			"page": 17,
 			"size": [
 				"M"
@@ -478,7 +449,7 @@
 		},
 		{
 			"name": "Sbilf",
-			"source": "Nightfell",
+			"source": "NFB",
 			"page": 102,
 			"size": [
 				"T"

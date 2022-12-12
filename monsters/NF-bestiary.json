@@ -1,0 +1,835 @@
+{
+	"siteVersion": "1.171.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "Nightfell",
+				"abbreviation": "NFB",
+				"full": "Nightfell Bestiary",
+				"url": "",
+				"authors": [
+					"Angelo Peluso"
+				],
+				"convertedBy": [
+					"bakkoh"
+				]
+			}
+		],
+		"dateAdded": 1670774699,
+		"dateLastModified": 1670774699
+	},
+	"monster": [
+		{
+			"name": "Glacier Skeleton",
+			"source": "Nightfell",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"pieces of armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 6",
+				"average": 15
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 12,
+			"con": 16,
+			"int": 5,
+			"wis": 8,
+			"cha": 5,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"resist": [
+				"cold",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "if dealt by non-Grim weapons"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"vulnerable": [
+				"bludgeoning",
+				"fire"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				"understands all the languages he knew in life but can't speak them."
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Vile Foe",
+					"entries": [
+						"When a living creature that is not {@condition blinded} is in front of the skeleton within 60 feet of them, that creature must make a {@dc 10} Wisdom saving throw, losing 1 Soul Point on a failed save. If that creature sees again the same or other Glacier Skeletons, it is immune to the Vile Foe effect for the next 24 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"A Glacier Skeleton makes two melee attacks."
+					]
+				},
+				{
+					"name": "Axe",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) slashing damage."
+					]
+				},
+				{
+					"name": "Axe thrown",
+					"entries": [
+						"{@atk rw} {@hit 2} to hit, reach 20/60 ft., one target. {@h}3 ({@damage 1d6}) slashing damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Preserver by the eternal frost of Iùrmen’s glaciers, these are the corpses of those who died during the wars that followed the Last Sun. Corpses that now raise from their graves of snow and darkness."
+				]
+			},
+			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/glacier-skeleton.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"CS",
+				"LF"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Mazzamurello",
+			"source": "Nightfell",
+			"size": [
+				"S"
+			],
+			"type": "fey",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d6",
+				"average": 14
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 10,
+			"int": 8,
+			"wis": 9,
+			"cha": 12,
+			"save": {
+				"dex": "+4"
+			},
+			"skill": {
+				"stealth": "+4",
+				"sleight of hand": "+4"
+			},
+			"senses": [
+				"darkvision 20 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"Common",
+				"Wild Jargon"
+			],
+			"cr": "1/4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The Mazzamurello's spellcasting ability is Charisma  (spell save {@dc 11}, {@hit 3} to hit with spell attacks). The Mazzamurello can innately cast the following spells, requiring only verbal components:"
+					],
+					"will": [
+						"{@spell mage hand}",
+						"{@spell prestidigitation}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell hellish rebuke}",
+							"{@spell magic missile}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The Mazzamurello has advantage on an attack roll against a creature if at least one of the Mazzamurello's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Mazzamurello’s has advantage on saving throws against spells or other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Club",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Sling",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}4 ({@damage 1d4+2}) bludgeoning damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "hellish rebuke (1/day)",
+					"entries": [
+						"in response to being damaged by a creature within 60 feet of you that you can see: ",
+						"You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes ({@damage 2d10}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp",
+				"urban"
+			],
+			"fluff": {
+				"entries": [
+					"These faelings look like big lizards that walk on two legs, and show off, as if they were ornaments, tools of various kinds gathered who knows how. In the eras before the long night, these creatures used to live near the inhabited centers where they disturbed the population with their funny noises. ",
+					"Now, these faelings have developed a more reserved behavior: they live in small groups in mountain areas, or near swamps or other waterways, and exploit their cunning to rob lonely wayfarers.",
+					"Thieves of the way:",
+					"The Mazzamurellos are used to control the roads that pass through difficult and rugged terrain such as mountain passes, wades, and marshy walkways. These evil faelings wait for travelers to find themselves in difficulty and exploit their tools to cause small landslides or to cover directions and tracks. In addition, they use their ability to emit and imitate sounds to further mislead the unfortunate, tricking them into taking the most difficult of routes for fear of some unknown danger on the path that is actually safer to travel. ",
+					"When the exhausted and lost travelers stop to seek rest, the Mazzamurellos advance silently to stun or kill them with their small stone hammers, and then take all their possessions.",
+					"Collectors:",
+					"The Mazzamurellos seem particularly attracted by the weapons and objects of the wayfarers, which they then use to commit other robberies. It is said that by following a Mazzamurello secretly you can find the place where it hides its treasures, ranging from the most common objects to the most bizarre; from the most useless to the most precious."
+				]
+			},
+			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/mazzamurello.png",
+			"traitTags": [
+				"Magic Resistance",
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"F",
+				"O"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Rotten Arisen",
+			"source": "Nightfell",
+			"page": 17,
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 9",
+				"average": 22
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 13,
+			"dex": 8,
+			"con": 16,
+			"int": 6,
+			"wis": 8,
+			"cha": 5,
+			"save": {
+				"con": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"preNote": "(only during ascending moon)",
+					"note": "from weapons that aren’t grim weapons"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"The languages it knew in life but can’t speak"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Favored Terrain",
+					"entries": [
+						"The Rotten Arisen’s favored terrain is graveyards/mounds."
+					]
+				},
+				{
+					"name": "Undead Fortitude",
+					"entries": [
+						"If damage reduces the Rotten Arisen to 0 Hit Points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the Rotten Arisen drops to 1 hit point instead"
+					]
+				},
+				{
+					"name": "Vile Foe",
+					"entries": [
+						"When a living creature that isn’t {@condition blinded} is in front of the Rotten Arisen within 60 feet of it, that creature must make a {@dc 12} Wisdom saving throw, losing 1 Soul Points on a failed save. If that creature sees again the same or other Rotten Arisen, it’s immune to the Vile Foe effect Str the next 24 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6+1}) bludgeoning damage. On a hit, target creature must make a {@dc 12} Wisdom Saving throw. On a failed save it loses {@h}1 ({@damage 1d2}) Soul Points."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://marcogoldin.github.io/homebrew/monsters/tokens/rotten-arisen-image.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/rotten-arisen.png",
+			"traitTags": [
+				"Undead Fortitude"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Sbilf",
+			"source": "Nightfell",
+			"page": 102,
+			"size": [
+				"T"
+			],
+			"type": "fey",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "8d4",
+				"average": 20
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 6,
+			"dex": 16,
+			"con": 10,
+			"int": 16,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+				"cha": "+6"
+			},
+			"skill": {
+				"perception": "+3",
+				"sleight of hand": "+5",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Wild Jargon"
+			],
+			"cr": "1/4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The Sblif ’s innate spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell chill touch}",
+						"{@spell mage hand}",
+						"{@spell minor illusion}",
+						"{@spell pass without trace}",
+						"{@spell prestidigitation}",
+						"{@spell produce flame}",
+						"{@spell vicious mockery}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell invisibility}"
+						],
+						"1e": [
+							"{@spell vampiric touch}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Sblif has advantage on saving throws against spells and other magical effects"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Necrotic Dagger",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 feet, one target. {@h}5 ({@damage 1d4+3}) slashing damage. If the target is a creature, it must make a {@dc 12} Constitution saving throw, taking additional 7 ({@damage 2d6}) necrotic damage on a failed save, or half as much damage on a successful one"
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The Sblif can take the Disengage or Hide Action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"In past eras, the Sbilves were among the most well-known and loved faelings by ordinary people. Their good-natured character, although burlesque, and their connection with nature made them the protagonists of many popular fables and legends. With the advent of the eternal night and the corruption of the world, these spirits were completely consumed by iniquity. ",
+					"Elusive and lethal. Today's Sbilves have stripped themselves of the good-natured appearance of the past: once, these creatures wore brightly colored clothes and funny red pointed hats, while today they are covered only by worn rags and their skin has taken on dark and gray shades demonstrating their complete fall into corruption. However, their ability to disappear and move without being noticed has not changed: it makes them quite dangerous now that they wander around armed with bone fragments that the faelings infuse with their inner darkness to turn them into dangerous cursed weapons. ",
+					"From protectors to destroyers. If their ancestors protected the fields, now these faelings burn them in the night or find ways to make plants and animals sick. Similarly, if their ancestors had jovial relationships with humans, the Sbilves of the Lunar Age take every opportunity to torture and kill them. Sbilves move in small groups and are virtually impossible to spot before they attack."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://marcogoldin.github.io/homebrew/monsters/tokens/sbilf-image.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/sbilf.png",
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"N",
+				"S"
+			],
+			"damageTagsSpell": [
+				"F",
+				"N",
+				"Y"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Animated Bramble",
+			"size": [
+				"M"
+			],
+			"type": "plant",
+			"source": "NightfellBestiary",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 12",
+				"average": 39
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 14,
+			"dex": 10,
+			"con": 14,
+			"int": 6,
+			"wis": 10,
+			"cha": 3,
+			"passive": 12,
+			"cr": "1/2",
+			"page": 142,
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"skill": {
+				"perception": "+2"
+			},
+			"resist": [
+				"poison"
+			],
+			"conditionImmune": [
+				"blinded",
+				"deafened",
+				"frightened"
+			],
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"Until it makes an attack roll, the Animated Bramble is indistinguishable from a normal bush."
+					]
+				},
+				{
+					"name": "Favored Terrain",
+					"entries": [
+						"The Animated Bramble’s favored terrain is forest."
+					]
+				},
+				{
+					"name": "Poison Resistance",
+					"entries": [
+						"The Animated Bramble has advantage on saving throws against poison."
+					]
+				}
+			],
+			"traitTags": [
+				"False Appearance"
+			],
+			"action": [
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 10 feet, one target. {@h}8 ({@damage 2d6+2}) bludgeoning damage.",
+						"If the target is a creature Large or smaller, that creature is {@condition grappled} (Escape {@dc 13}). Until this grapple ends, the target is {@condition restrained}. At the start of each of its next turn, a {@condition restrained} target takes additional 4 ({@damage 1d8}) bludgeoning damage. The Animated Bramble can constrict up to 3 creatures at the same time."
+					]
+				},
+				{
+					"name": "Poisonous Spores {@recharge 6}",
+					"entries": [
+						"The Animated Bramble emits poisonous spores in a 20-foot-diameter sphere centered on it. Each creature in that area must make a {@dc 13} Constitution saving throw, taking 9 poison damage and being {@condition poisoned} for 1 minute on a failed save, or half as much damage and no other ill effects on a successful one. At the end of each of its next turns, an affected creature can make another Constitution saving throw, ending the effect on itself on a success."
+					]
+				}
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"damageTags": [
+				"B",
+				"I"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/animated-bramble.png",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://marcogoldin.github.io/homebrew/monsters/tokens/animated-bramble-image.jpg"
+						}
+					}
+				]
+			},
+			"environment": [
+				"forest"
+			]
+		},
+		{
+			"name": "Bafardejo",
+			"size": [
+				"M"
+			],
+			"type": "fey",
+			"source": "NightfellBestiary",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 4",
+				"average": 22
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 10,
+			"dex": 17,
+			"con": 12,
+			"int": 10,
+			"wis": 13,
+			"cha": 14,
+			"passive": 13,
+			"cr": "1/2",
+			"fluff": {
+				"entries": [
+					"\"If you're not careful, the Bafardejo will catch you!\"",
+					"popular saying to scare children",
+					"There are many rumors about the Bafardejo. Unfortunately, there are few that can be confirmed. Spotting a Bafardejo is extremely difficult, and many argue that these faelings are endowed with the gift of invisibility. With the advent of darkness, Bafardejo's pranks have gone from being mere spiteful to unscrupulous acts that can seriously endanger people's lives. Luckily, the Bafardejo is small in size and rarely moves in groups. Once you've found the right remedy, driving it out of a place can be simple.",
+					"Dangerous jokes:",
+					"The Bafardejo seems particularly intent on doing everything he can to annoy other creatures. Several witnesses say that they woke up in the night with one of these creatures crouching on their chest, intent on plugging the mouth and nose of the unfortunate with their hooked hands. In other cases, the appearance of a Bafardejo is followed by the disappearance of food, the escape of domestic or farm animals and, in the worst cases, the burning of houses. The Bafardejo seems to have a certain aversion, or a malignant predisposition, towards representatives of all religions. There are many cases in which the creature is caught interrupting and disturbing functions and rituals with obscene noises and desecrating mischief. The only ones who seem immune to the attentions of Bafardejo are newborns. There are even testimonies of parents who have seen the creature watch over their infant during the night, and cases in which the faeling has attacked babies are never heard, and the same for the houses in which they dwell.",
+					"Silent and unpredictable: ",
+					"The worst problem when dealing with a Bafardejo is its ability to go unnoticed. The creature is very adept at approaching and entering villages and dwellings without being seen, and even once the presence of a pest has been ascertained, flushing it out is no small feat. Ironically, a Bafardejo is more easily traceable in those conditions that should usually facilitate stealth. While inside an illuminated house it is almost invisible, the best place to spot a Bafardejo is the undergrowth through which it moves from settlement to settlement, and from home to home; the best time is when the clouds obscure the Moon, and everything becomes dark, and the faeling comes out into the open.",
+					"CUSTOMS",
+					"Place",
+					"The Bafardejo rests in the low vegetation and haunts homes or places of worship.",
+					"Time",
+					"The Bafardejo usually comes out in the darkest hours. ",
+					"Gesture",
+					"The Bafardejo is particularly attracted to rituals of any kind, or to people who live alone. The creature is especially afraid of light sources, which can keep it away or scare it."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://marcogoldin.github.io/homebrew/monsters/tokens/bafardejo-image.png"
+						}
+					}
+				]
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languages": [
+				"understands Common but can speak only using the Mimicry feature"
+			],
+			"languageTags": [
+				"C"
+			],
+			"save": {
+				"dex": "+3"
+			},
+			"skill": {
+				"stealth": "+5",
+				"deception": "+4",
+				"perception": "+3",
+				"sleight of hand": "+5"
+			},
+			"conditionImmune": [
+				"charmed"
+			],
+			"trait": [
+				{
+					"name": "Blessing of the Dark",
+					"entries": [
+						"The Bafardejo can normally see in darkness, both magical and non-magical, and can’t be {@condition charmed}."
+					]
+				},
+				{
+					"name": "Favored Terrain",
+					"entries": [
+						"The Bafardejo’s favored terrain is cultivated fields."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Bafardejo has advantage on saving throws against spells or other magical effects."
+					]
+				},
+				{
+					"name": "Mimicry",
+					"entries": [
+						"The Bafardejo can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations if it succeeds on a {@dc 14} Wisdom (Insight) check."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"bonus": [
+				{
+					"name": "Stealth of Darkness",
+					"entries": [
+						"The Bafardejo can take the Hide Action as a bonus action, and it has advantage while hiding in dim light or darkness."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Innate Spellcasting. The Bafardejo’s spellcasting ability is Charisma  (spell save {@dc 12}, {@hit 4} to spell attack). The Bafardejo can innately cast the following spells, requiring only verbal components:"
+					],
+					"will": [
+						"{@spell mage hand}",
+						"{@spell minor illusion}",
+						"{@spell ray of frost}",
+						"{@spell vicious mockery}"
+					],
+					"daily": {
+						"3": [
+							"{@spell disguise self}"
+						],
+						"2e": [
+							"{@spell fog cloud}",
+							"{@spell sleep}"
+						],
+						"1e": [
+							"{@spell invisibility}",
+							"{@spell misty step}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"damageTagsSpell": [
+				"C",
+				"Y"
+			],
+			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/bafardejo.png",
+			"action": [
+				{
+					"name": "Skullstaff",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 feet, one creature. {@h}6 ({@damage 1d6+3}) bludgeoning damage.",
+						"On a hit the sockets of the skulls glow of a greenish light and some tiny ghosts get in the target’s head. The target must make a {@dc 12} Wisdom saving throw, taking 7 ({@damage 2d4}) psychic damage on a failed save or half as much damage on a successful one."
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}

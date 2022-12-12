@@ -3,10 +3,10 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Nightfell",
+				"json": "NFB",
 				"abbreviation": "NFB",
 				"full": "Nightfell Bestiary",
-				"url": "",
+				"url": "https://github.com/bakkoh/homebrew/blob/main/monsters/NF-bestiary.json",
 				"authors": [
 					"Angelo Peluso"
 				],
@@ -110,11 +110,45 @@
 				}
 			],
 			"fluff": {
+				"name": "Glacier Skeleton",
+				"source": "NFB",
 				"entries": [
-					"Preserver by the eternal frost of Iùrmen’s glaciers, these are the corpses of those who died during the wars that followed the Last Sun. Corpses that now raise from their graves of snow and darkness."
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Preserver by the eternal frost of Iùrmen’s glaciers, these are the corpses of those who died during the wars that followed the Last Sun. Corpses that now raise from their graves of snow and darkness.",
+									{
+										"type": "entries",
+										"name": "Glacier Skeleton",
+										"entries": [
+											"test",
+											"test",
+											{
+												"name": "Glacier Skeleton",
+												"entries": [
+													"test"
+												],
+												"type": "entries"
+											}
+										]
+									},
+									{
+										"type": "inset",
+										"name": "Summoning Air Elementals",
+										"entries": [
+											"Five aarakocra within 30 feet of each other can magically summon an air elemental. Each of the five must use its action and movement on three consecutive turns to perform an aerial dance and must maintain concentration while doing so (as if concentrating on a spell). When all five have finished their third turn of the dance, the elemental appears in an unoccupied space within 60 feet of them. It is friendly toward them and obeys their spoken commands. It remains for 1 hour, until it or all its summoners die, or until any of its summoners dismisses it as a bonus action. A summoner can't perform the dance again until it finishes a short rest. When the elemental returns to the Elemental Plane of Air, any aarakocra within 5 feet of it can return with it."
+										]
+									}
+								]
+							}
+						]
+					}
 				]
 			},
-			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/glacier-skeleton.png",
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/glacier-skeleton.png",
 			"senseTags": [
 				"D"
 			],
@@ -257,7 +291,7 @@
 					"The Mazzamurellos seem particularly attracted by the weapons and objects of the wayfarers, which they then use to commit other robberies. It is said that by following a Mazzamurello secretly you can find the place where it hides its treasures, ranging from the most common objects to the most bizarre; from the most useless to the most precious."
 				]
 			},
-			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/mazzamurello.png",
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/mazzamurello.png",
 			"traitTags": [
 				"Magic Resistance",
 				"Pack Tactics"
@@ -379,12 +413,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://marcogoldin.github.io/homebrew/monsters/tokens/rotten-arisen-image.png"
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/rotten-arisen-image.png"
 						}
 					}
 				]
 			},
-			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/rotten-arisen.png",
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/rotten-arisen.png",
 			"traitTags": [
 				"Undead Fortitude"
 			],
@@ -507,12 +541,12 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://marcogoldin.github.io/homebrew/monsters/tokens/sbilf-image.png"
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/sbilf-image.png"
 						}
 					}
 				]
 			},
-			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/sbilf.png",
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/sbilf.png",
 			"traitTags": [
 				"Magic Resistance"
 			],
@@ -639,14 +673,14 @@
 			"miscTags": [
 				"MW"
 			],
-			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/animated-bramble.png",
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/animated-bramble.png",
 			"fluff": {
 				"images": [
 					{
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://marcogoldin.github.io/homebrew/monsters/tokens/animated-bramble-image.jpg"
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/animated-bramble-image.jpg"
 						}
 					}
 				]
@@ -711,7 +745,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://marcogoldin.github.io/homebrew/monsters/tokens/bafardejo-image.png"
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/bafardejo-image.png"
 						}
 					}
 				]
@@ -813,7 +847,7 @@
 				"C",
 				"Y"
 			],
-			"tokenUrl": "https://marcogoldin.github.io/homebrew/monsters/tokens/bafardejo.png",
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/bafardejo.png",
 			"action": [
 				{
 					"name": "Skullstaff",

@@ -1143,7 +1143,7 @@
 		},
 		{
 			"name": "Horrid mustela",
-			"source": "nfb",
+			"source": "NFB",
 			"page": 122,
 			"size": [
 				"S"
@@ -1281,7 +1281,7 @@
 				"M"
 			],
 			"type": "fiend",
-			"source": "nfb",
+			"source": "NFB",
 			"alignment": [
 				"L",
 				"E"
@@ -1471,6 +1471,184 @@
 				"mountain"
 			],
 			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/krampus.png"
+		},
+		{
+			"name": "Lauro",
+			"size": [
+				"S"
+			],
+			"type": "fey",
+			"source": "nfb",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d6",
+				"average": 21
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 12,
+			"cha": 15,
+			"passive": 11,
+			"cr": "1/2",
+			"page": 96,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Whisper of the Echoes"
+			],
+			"languageTags": [
+				"C"
+			],
+			"save": {
+				"dex": "+4"
+			},
+			"skill": {
+				"acrobatics": "+4",
+				"stealth": "+4",
+				"sleight of hand": "+4"
+			},
+			"trait": [
+				{
+					"name": "Favored Terrain",
+					"entries": [
+						"The Lauro’s favored terrain is cultivated fields/plains."
+					]
+				},
+				{
+					"name": "Favor of the Dark",
+					"entries": [
+						"The Lauro has advantage on Dexterity (Stealth) checks while in darkness or dim light."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Lauro has advantage on saving throws against magic or magical effects."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The Lauro has advantage on an attack roll against a creature if at least one of the Lauro allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Lauro’s spellcasting ability is Charisma (spell save {@dc 12},  {@hit 4} to hit with spell attacks). The Lauro can innately cast the following spells, requiring only verbal components:"
+					],
+					"will": [
+						"{@spell chill touch}",
+						"{@spell mage hand}",
+						"{@spell prestidigitation}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell darkness}",
+							"{@spell sleep}"
+						],
+						"1e": [
+							"{@spell dream}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTagsSpell": [
+				"N",
+				"Y"
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Pack Tactics"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Lauro makes two attacks: one with its bite and one with its claw."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d8}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 feet, one target. {@h}5 ({@damage 1d6+2}) slashing damage. "
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/lauro.png",
+			"fluff": {
+				"entries": [
+					"\"In Iùrmen, following a faeling into the depths of the forest will give you an atrocious death, instead of a pot of gold.\"",
+					"macabre popular saying",
+					"Those who were once benevolent protectors of nature, have now become ruthless when nature itself, corrupted by the Ènferun, has become ruthless. The Lauro are evil and violent faelings who almost always move in small packs, bringing death and despair to the places they infest.",
+					"Diabolical packs. When a group of Lauro decides to abandon the woods it infests, it does so with violent and terrible motives. At one time, these faelings used to take up residence in country houses to protect the lumber of the woods used to build them. Today, their dedication has taken on a totally different aspect: when a group of Lauro heads to a village, it is to assault and gut cattle, or to set fire to crops and homes. Despite the small size of these beings, the size of the pack is numerous enough to pose a serious danger.",
+					"In the depths of the forest. When the Lauro do not deal with tormenting the villages, they spend most of their time protecting the woods in which they live, often resorting to ignoble methods and deceptions: one of the most frequent is to make those who cross the woods lose their way, attracting them with the illusion of treasures, usually gold coins, and behaving in a jovial and even comical way. Once they fall into the trap, these unfortunates find themselves surrounded by the pack, which proceeds to devour them to the bones.",
+					"CUSTOMS",
+					"Place",
+					"The Lauro defends the woods and assaults rural settlements.",
+					"Time",
+					"Some scholars have noted that the attacks of Lauro packs towards villages intensify during the changing of seasons.",
+					"Gesture",
+					"A Lauro attacks those who are crossing the woods, or those who have deforested to obtain wood or space to cultivate."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/lauro-image.png"
+						}
+					}
+				]
+			},
+			"environment": [
+				"forest",
+				"grassland"
+			]
 		}
 	]
 }

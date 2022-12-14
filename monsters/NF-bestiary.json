@@ -14,8 +14,8 @@
 				]
 			}
 		],
-		"dateAdded": 1670774699,
-		"dateLastModified": 1670774699
+		"dateAdded": 1671006509,
+		"dateLastModified": 1671006509
 	},
 	"monster": [
 		{
@@ -1139,6 +1139,140 @@
 			"environment": [
 				"small village",
 				"urban"
+			]
+		},
+		{
+			"name": "Horrid mustela",
+			"source": "nfb",
+			"page": 122,
+			"size": [
+				"S"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "6d6 + 6",
+				"average": 27
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 13,
+			"int": 5,
+			"wis": 12,
+			"cha": 6,
+			"save": {
+				"dex": "+5"
+			},
+			"skill": {
+				"stealth": "+5",
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"The Horrid Mustela can use a bonus action to move up to its movement towards a hostile creature it can see."
+					]
+				},
+				{
+					"name": "Favored Terrain",
+					"entries": [
+						"The Horrid Mustela’s favored terrain is woods"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Horrid Mustela makes two attacks: one with its bite and one with its claw."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8+1}) piercing damage.",
+						"On a hit, target creature is {@condition grappled} until the Horrid Mustela bites another creature or dies. At the start of each of its next turns, a {@condition grappled} creature, instead of being bitten again, automatically takes another 5 ({@damage 1d8 + 1}) piercing damage. At the end of each of its next turns, a {@condition grappled} creature can use its action to make a {@dc 13} Strength (Athletics) check, freeing itself on a success."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 feet, one target. {@h}6 ({@damage 1d6+3}) slashing damage. "
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Beastly Nimbleness",
+					"entries": [
+						"The Horrid Mustela can use a bonus action to take the Disengage or Dodge action."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"fluff": {
+				"name": "Horrid mustela",
+				"source": "NFB",
+				"entries": [
+					"Creatures similar to monstrous martens, and like martens seek nothing more than to satisfy their hunger, which is actually insatiable. These animals are mentioned only in the accounts of the bold who dare to cross the forests of Iùrmen and return to talk about them.",
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Lunar Influence.",
+								"entries": [
+									"The first appearances of the Horrid Mustela date back to the early years of the Lunar Age, which would suggest that their change from simple mustelids to much more cruel and effective predators was due to the influence of moonlight in eternal darkness. However, they do not seem to be affected by lunar cycles, hunting at nighttime, and sleeping during the total darkness in daytime."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/horrid-mustela-image.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/horrid-mustela.png",
+			"traitTags": [
+				"Aggressive"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
 			]
 		}
 	]

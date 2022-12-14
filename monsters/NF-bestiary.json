@@ -1649,6 +1649,132 @@
 				"forest",
 				"grassland"
 			]
+		},
+		{
+			"name": "Crocutoid",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"source": "nfb",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d8 + 14",
+				"average": 45
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 14,
+			"int": 6,
+			"wis": 10,
+			"cha": 9,
+			"passive": 12,
+			"cr": "1",
+			"fluff": {
+				"entries": [
+					"Lineage of the Crocutoids. During the Lunar Age, humanoid beings whose features remind of the Crocutas appeared throughout Lost Aresya. Legends tell of how, in order to gain more power to fight the dead, some Ejre druids performed forbidden rituals, sacrificing the Crocutas to ancient pagan deities. ",
+					"Their purpose was to seize the ferocity of these beasts and to be able to take their appearance in combat, but the ritual, perhaps due to the discontent of the ancestral spirits, had an imperfect outcome, irreversibly transforming the druids into grotesque crosses between humans and Crocutas, which the Ejre then named Crocutoids. ",
+					"Over the decades, these creatures have multiplied, established their own racial identity, and learned to live in tribal communities, located in old woods or in the middle of the great plains. Using Crocutas as hounds and mastiffs, as the Ejre never managed to, the Crocutoids assault the small remaining Ejre villages, forcing many to migrate to Old Civis."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/crocutoid-image.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/crocutoid.png",
+			"page": 134,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Wild Jargon",
+				"Primordial Runic"
+			],
+			"languageTags": [
+				"C",
+				"P"
+			],
+			"skill": {
+				"perception": "+2"
+			},
+			"trait": [
+				{
+					"name": "Favored Terrain",
+					"entries": [
+						"The Crocutoids’s favored terrain is cultivated fields."
+					]
+				},
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"The Crocutoid has advantage on Wisdom (Perception) checks that rely on sight or smell."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Crocutoid makes two attacks. One with its scimitar and one with its bite."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 feet, one target. {@h}6 ({@damage 1d8+2}) piercing damage."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 feet, one target. {@h}5 ({@damage 1d6+2}) slashing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"reaction": [
+				{
+					"name": "Staff of Parry",
+					"entries": [
+						"When the Crocutoid is hit with a melee attack, it can use its staff to increase its AC by 3. If the attack misses, it can then make a bite attack."
+					]
+				}
+			]
 		}
 	]
 }

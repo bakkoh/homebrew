@@ -1775,6 +1775,152 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Encaged One",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"source": "nfb",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8",
+				"average": 36
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 50,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 1,
+			"dex": 16,
+			"con": 11,
+			"int": 11,
+			"wis": 12,
+			"cha": 12,
+			"passive": 11,
+			"cr": "1",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"understands all languages it knew in life",
+				"but can’t speak"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"save": {
+				"wis": "+3",
+				"cha": "+3"
+			},
+			"resist": [
+				{
+					"resist": [
+						"acid",
+						"cold",
+						"fire",
+						"lightning",
+						"thunder"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from weapons that aren’t magical"
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"trait": [
+				{
+					"name": "Favored Terrain",
+					"entries": [
+						"The Encaged One’s favored terrain is graveyards/mounds."
+					]
+				},
+				{
+					"name": "Incorporeal Movement",
+					"entries": [
+						"The Encaged One can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+					]
+				},
+				{
+					"name": "Vile Foe",
+					"entries": [
+						"When a living creature that isn’t {@condition blinded} is in front of the Encaged One within 60 feet, that creature must make a {@dc 11} Wisdom saving throw, losing 1 Soul Points on a failed save. If that creature sees again the same or other Encaged Ones, it’s immune to the Vile Foe effect Str the next 24 hours."
+					]
+				}
+			],
+			"traitTags": [
+				"Incorporeal Movement"
+			],
+			"damageTags": [
+				"N",
+				"O"
+			],
+			"action": [
+				{
+					"name": "Sucking Life",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 feet, one target. {@h}25 ({@damage 5d8+3}) necrotic damage and loss of 2 ({@dice 1d4}) Soul Points. ",
+						"If hit, the target must pass a Constitution saving throw with {@dc 11} or see its maximum Hit Points reduced by an amount equal to the damage suffered. This reduction lasts until the target has completed a long rest. The target dies if the effect reduces its maximum Hit Points to 0."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"These tormented souls remain tied to the place of their death or to an area where they have been relegated by magic. Their appearance reminisces of what they looked like in life but devastated by discouragement and anguish. ",
+					"The curse. The Encaged Ones are the souls of those who have died violently, due to a betrayal or similar tragedy , or because of a curse, and their laments echo in the gloomy places where they dwell. The members of some clergy, moved to pity by the damned souls in the Ravines of the Encaged, tried to bless the crevasse to end the torment of these ghosts, but they never returned from the thick fog of that cursed place. ",
+					"Slaves of invisible chains. In some cases, these ghosts can be summoned from the corpse of a cursed one on which blasphemous rites have been performed , but the procedure is known only to the most experienced necromancers. This cruel procedure serves to voluntarily bind the Encaged Ones in place, to make them guard it or to protect an obscure master. A fate far more tragic than death. They know no peace, these chained souls, and this makes them fiercely aggressive towards the living, on whom they pour all their resentment."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/encaged-one-image.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/encaged-one.png"
 		}
 	]
 }

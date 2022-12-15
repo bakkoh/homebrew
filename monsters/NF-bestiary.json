@@ -2409,6 +2409,135 @@
 			"environment": [
 				"mountain"
 			]
+		},
+		{
+			"name": "Lyvar raider",
+			"size": [
+				"S"
+			],
+			"type": "humanoid",
+			"source": "nfb",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d6 + 7",
+				"average": 31
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 8,
+			"dex": 17,
+			"con": 12,
+			"int": 12,
+			"wis": 14,
+			"cha": 14,
+			"passive": 14,
+			"cr": "1",
+			"page": 160,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"common",
+				"wild jargon",
+				"stone language"
+			],
+			"skill": {
+				"stealth": "+5",
+				"deception": "+4",
+				"perception": "+4",
+				"sleight of hand": "+5"
+			},
+			"bonus": [
+				{
+					"name": "Cunning action",
+					"entries": [
+						"The raider can take a bonus action on each of their turns in combat. This action can be used only to take the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Innate escape",
+					"entries": [
+						"The raider can use the Disengage action as a bonus action, and their speed increases by 15 feet when you do so."
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Sneak attack",
+					"entries": [
+						"Once per turn, the raider deals 7 ({@damage 2d6}) damage to one creature they hit with an attack if they have Advantage on the Attack roll or if the target is within 5 feet of an ally of theirs (as long as the ally is not {@condition incapacitated}). They must use a weapon to attack."
+					]
+				}
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The raider makes two melee attacks with a short sword."
+					]
+				},
+				{
+					"name": "Short sword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6+3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 30/120 ft., one target. {@h}6 ({@damage 1d6+3}) piercing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/lyvar-rider.png",
+			"fluff": {
+				"entries": [
+					"Lyvar wandering groups often include raiding parties to search outposts and snatch provisions and other items. ",
+					"These sneaky Faelings only have a few days to get back to the caravan with the loot, otherwise they are left behind."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/lyvar-rider-image.png"
+						}
+					}
+				]
+			}
 		}
 	]
 }

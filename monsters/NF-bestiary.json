@@ -1921,6 +1921,183 @@
 				]
 			},
 			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/encaged-one.png"
+		},
+		{
+			"name": "Mazapegùl",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "fey",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"source": "nfb",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d6 + 6",
+				"average": 27
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 12,
+			"int": 12,
+			"wis": 14,
+			"cha": 15,
+			"passive": 14,
+			"cr": "1",
+			"page": 98,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Whisper of the Echoes"
+			],
+			"languageTags": [
+				"C"
+			],
+			"save": {
+				"dex": "+4"
+			},
+			"skill": {
+				"acrobatics": "+4",
+				"stealth": "+4",
+				"perception": "+4"
+			},
+			"trait": [
+				{
+					"name": "Favored Terrain",
+					"entries": [
+						"The Mazapegùl’s favored terrain is urbanized area."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Mazapegùl’s has advantage on saving throws against magic or magical effects."
+					]
+				},
+				{
+					"name": "Moonlight’s Reveal",
+					"entries": [
+						"When it is in humanoid form, if it’s in moonlight, it returns to its true form. At the start of each of its turns, if it is in moonlight it takes 3 ({@damage 1d6}) radiant damage."
+					]
+				},
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"The Mazapegùl can use its action to polymorph into a small or medium humanoid or back to its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies or if it is moonlight (see Moonlight’s Reveal)."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Shapechanger"
+			],
+			"damageTags": [
+				"P",
+				"R",
+				"S",
+				"Y"
+			],
+			"action": [
+				{
+					"name": "Claw (only in its true form)",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6+2}) slashing damage."
+					]
+				},
+				{
+					"name": "Dagger (only in its humanoid form)",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4+2}) piercing damage."
+					]
+				},
+				{
+					"name": "Torment",
+					"entries": [
+						"The Mazapegùl chooses a creature that it can see within 60 feet of it. Target creature must make a {@dc 14} Wisdom saving throw, taking 9 ({@damage 2d8}) psychic damage on a failed save, or half as much damage on a successful one. If a saving throw is successful, that creature is immune to the Mazapegùl’s Torment for the next 24 hours."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Mazapegùl's spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to spell attacks). The Mazapegùl can innately cast the following spells, requiring only verbal components:"
+					],
+					"will": [
+						"{@spell chill touch}",
+						"{@spell prestidigitation}",
+						"{@spell vicious mockery}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell bane}",
+							"{@spell Tasha's hideous laughter}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTagsSpell": [
+				"N",
+				"Y"
+			],
+			"fluff": {
+				"entries": [
+					"No one knows the true shape of a Mazapegùl since each time it is seen it has completely different physical characteristics. Descended from now extinct benevolent spirits, today's Mazapegùls of Iùrmen tend to develop a morbid love for members of other humanoid races. According to some rumors, a Mazapegùl who manages to break into a house, will eventually take on the appearance of its inhabitants, replacing them in all respects. ",
+					"Devious shapeshifters. The Mazapegùl have the ability to take the most diverse shapes, to the point that no one has any idea what their true appearance is. Being small in size, these faelings enter dwellings in the form of cats, mice or rabbits. It is very difficult to understand that an animal is actually a Mazapegùl, since the creature shows its mutant nature only when it is very frightened or is injured: at that point, its shape will become unstable, and it will change appearance from moment to moment.",
+					"Obsessive love. Led astray by the influence of the long night, these once peaceful and protective faelings have developed a distorted love for other sentient species. The only way, in addition to violence and intimidation, to identify a Mazapegùl who pretends to be a pet is to pay close attention to its attitudes: the creature will tend to display an excessive attachment, and it is easy to find them intent on staring at the objects of their affection for unnaturally long moments. According to some rumors, a Mazapegùl who stays in a house for a long time can become so large that it takes the shape of its masters and completely replaces them, even if there is no evidence or testimony that confirms this thesis.",
+					"CUSTOMS",
+					"Place",
+					"The Mazapegùls come from the fields and looks for a way to slip into houses.",
+					"Time",
+					"According to some rumors, Mazapegùls appear when a pet dies.",
+					"Gesture",
+					"Mazapegùls develop a morbid attachment to people and go out of their way to get closer to them. It seems that they react negatively to the ritual of hanging one grain spike on the door for each pet that lives in the house. In this way, it seems that the faeling will have difficulty maintaining a single appearance, turning from time to time into a different animal."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/mazapegul-image.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/mazapegul.png",
+			"environment": [
+				"grassland",
+				"urban"
+			]
 		}
 	]
 }

@@ -2522,7 +2522,7 @@
 				"RW",
 				"RNG"
 			],
-			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/lyvar-rider.png",
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/lyvar.png",
 			"fluff": {
 				"entries": [
 					"Lyvar wandering groups often include raiding parties to search outposts and snatch provisions and other items. ",
@@ -2533,7 +2533,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/lyvar-rider-image.png"
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/lyvar-image.png"
 						}
 					}
 				]

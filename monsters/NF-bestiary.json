@@ -2098,6 +2098,178 @@
 				"grassland",
 				"urban"
 			]
+		},
+		{
+			"name": "Munaciello",
+			"size": [
+				"S"
+			],
+			"type": "fey",
+			"source": "nfb",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d6",
+				"average": 28
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 20,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 9,
+			"dex": 15,
+			"con": 10,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"passive": 14,
+			"cr": "1",
+			"page": 101,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Whisper of the Echoes"
+			],
+			"languageTags": [
+				"C"
+			],
+			"save": {
+				"dex": "+4"
+			},
+			"skill": {
+				"perception": "+4",
+				"deception": "+5"
+			},
+			"resist": [
+				{
+					"resist": [
+						"necrotic",
+						"poison"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from weapons that aren’t magical."
+				}
+			],
+			"trait": [
+				{
+					"name": "Favored Terrain",
+					"entries": [
+						"The Munaciello’s favored terrain is unholy site."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Munaciello’s has advantage on saving throws against magic or magical effects."
+					]
+				},
+				{
+					"name": "Mimicry.",
+					"entries": [
+						"The Munaciello can mimic the voice of a little sound. A creature that hears the voice can tell they are imitations with a successful {@dc 15} Wisdom (Insight) check."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Munaciello's spellcasting ability is Charisma (spell save {@dc 13},{@hit 5} to spell attacks). The Munaciello can innately cast the following spells, requiring only verbal components:"
+					],
+					"will": [
+						"{@spell chill touch}",
+						"{@spell fire bolt}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell bane}",
+							"{@spell inflict wounds}"
+						],
+						"1e": [
+							"{@spell hold person}",
+							"{@spell spiritual weapon}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTagsSpell": [
+				"F",
+				"N",
+				"O"
+			],
+			"action": [
+				{
+					"name": "Necrotic Touch",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8+3}) necrotic damage."
+					]
+				}
+			],
+			"damageTags": [
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/munaciello.png",
+			"fluff": {
+				"entries": [
+					"\"The young man came running into the village, cackling with happiness. To everyone he met he said that a little crippled monk had given him a bag full of gold. The eyes of the villagers turned round as they prepared clubs to beat the fool and take back the gold that someone had stolen from all the houses the night before.\" [taken from a story by an unknown author]",
+					"The Munaciello is a very particular faeling, looking like a child wrapped in a hooded robe, which makes it look like a small monk. It often appears in the ruins of places of worship or on the road of travelers when the sun is setting. Unlike other faelings, the ways of the Munaciello are more similar to those of humanoid species, and it communicates in a more understandable way. Munaciellos usually makes gifts to those they meet and are available to those who ask questions, to which it answers only with gestures, albeit easy to interpret. The Munaciello's seemingly benevolent actions often have negative implications. The presents it gives out are often the result of theft, and the person to whom they are given often has to deal with the victims of the theft later. Similarly, the creature's suggestions and directions always get those who follow them into trouble.",
+					"A distorted morality. Many argue that a Munaciello manifests itself when a man or woman of faith performs violent and impure acts or acts in strong contrast with their faith. This belief is quite plausible, as the Munaciello almost seems to behave according to an upside-down morality. Its aid always has negative consequences and totally unexpected outcomes, almost cruelly mocking, as if the faeling wanted to test the faith or morals of the people who come into contact with it.",
+					"Nefarious priest. The Munaciello is not dangerous only for his deceptions: there are several stories of how it is the creature itself, at times, to carry out its \"penances\". Just like that of a dark cleric, its touch burns the flesh, and its invocations cause malaise, paralysis, and wounds of various kinds to those who listen to them.",
+					"--------------",
+					"CUSTOMS",
+					"Place",
+					"The Munaciello usually appears in ruined places of worship and on roads.",
+					"Time",
+					"The Munaciello appears at sunset.",
+					"Gesture",
+					"The Munaciello induces the people it meets to make choices that, if conducted according to common morality, can have very negative outcomes. According to some legends, the best way to avoid the deceptions of a Munaciello is to pretend you cannot see it."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/munaciello-image.png"
+						}
+					}
+				]
+			}
 		}
 	]
 }

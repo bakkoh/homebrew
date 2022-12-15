@@ -2270,6 +2270,145 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Squasc",
+			"size": [
+				"S"
+			],
+			"type": "fey",
+			"source": "nfb",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d6 + 12",
+				"average": 33
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 14,
+			"dex": 15,
+			"con": 14,
+			"int": 8,
+			"wis": 10,
+			"cha": 9,
+			"passive": 12,
+			"cr": "1",
+			"page": 103,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Wild Jargon"
+			],
+			"languageTags": [
+				"C"
+			],
+			"skill": {
+				"stealth": "+4",
+				"perception": "+2",
+				"survival": "+2"
+			},
+			"bonus": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the Squasc can move up to its speed toward a hostile creature that it can see."
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Favored Terrain",
+					"entries": [
+						"The Squasc’s favored terrain is rocky"
+					]
+				},
+				{
+					"name": "Fury of the Small",
+					"entries": [
+						"When it hits a creature larger than its size with a weapon attack, the Squasc deals 3 ({@damage 1d6}) additional damage."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Squasc has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Squasc makes two greatclub attacks."
+					]
+				},
+				{
+					"name": "Greatclub",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8+2}) bludgeoning damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"An ancient people of goblins, who since the First Age were known by the Beronzin for their aggressiveness and ferocity. These days, their numbers have soared, making them them even more cruel, bashful, and ravenous. ",
+					"---------------------------------------------------",
+					"Devourers of humanoid flesh. Squasc form cruel packs to attack wayfarers or caravans. If the pack is large enough, they also venture into villages or larger outposts, sometimes managing to kidnap inhabitants, whose meat will then be cooked and consumed by these faelings. Despite their small stature, these beings should not be underestimated: a large group of Squasc can endanger the lives of trained soldiers. ",
+					"---------------------------------------------------",
+					"Journey from unknown lands. The first to speak of the Squasc were the Beronzin satyrs of the lands of Aresya. They told of how small groups of ferocious beings began to sprout through the woods and valleys, probably coming from the Forgotten East. These creatures demonstrated a very rapid ability to reproduce, and soon their number became such as to represent a real threat in the eyes of the Beronzin, who encountered difficulties due to the Squasc’s natural adaptability to magic, as they soon became almost immune to the spells of the satyrs. Now, most of the remaining Squasc inhabit the lost lands of the Satyrs, settling downstream in the Lost Aresya.",
+					"---------------------------------------------------",
+					"CUSTOMS",
+					"Place",
+					"Usually inhabiting the areas of the Lost Aresya, but able to",
+					"travel for miles to find people to eat.",
+					"Time",
+					"They do not seem to have any kind of time restriction.",
+					"Gesture",
+					"Squasc do not give up their old customs, and meals and banquets are sacred moments."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/squasc-image.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/squasc.png",
+			"environment": [
+				"mountain"
+			]
 		}
 	]
 }

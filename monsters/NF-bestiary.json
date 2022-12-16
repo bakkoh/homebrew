@@ -2701,120 +2701,117 @@
 						}
 					},
 					{
-	"name": "Crocuta",
-	"size": [
-		"L"
-	],
-	"type": "monstrosity",
-	"source": "nfb",
-	"alignment": [
-		"U"
-	],
-	"ac": [
-		13
-	],
-	"hp": {
-		"formula": "6d10 + 18",
-		"average": 51
-	},
-	"speed": {
-		"walk": 50
-	},
-	"str": 19,
-	"dex": 16,
-	"con": 16,
-	"int": 5,
-	"wis": 12,
-	"cha": 9,
-	"passive": 13,
-	"cr": "2",
-	"page": 133,
-	"senses": [
-		"darkvision 60 ft."
-	],
-	"senseTags": [
-		"D"
-	],
-	"save": {
-		"dex": "+5"
-	},
-	"skill": {
-		"perception": "+3"
-	},
-	"resist": [
-		{
-			"resist": [
-				"bludgeoning",
-				"piercing",
-				"slashing"
-			],
-			"preNote": "(only during descending moon)"
-		}
-	],
-	"trait": [
-		{
-			"name": "Favored Terrain",
-			"entries": [
-				"The Crocuta’s favored terrain is cultivated fields/plains."
-			]
-		},
-		{
-			"name": "Keen Senses",
-			"entries": [
-				"The Crocuta has advantage on Wisdom (Perception) checks that rely on sight or smell."
-			]
-		},
-		{
-			"name": "Pack Tactics",
-			"entries": [
-				"The Crocuta has advantage on an attack roll against a creature if at least one of the Crocuta’s allies is within 5 feet of the creature and the ally isn’t {@condition incapacitated}."
-			]
-		}
-	],
-	"environment": [
-		"grassland",
-		"hill"
-	],
-	"traitTags": [
-		"Keen Senses",
-		"Pack Tactics"
-	],
-	"action": [
-		{
-			"name": "Bite",
-			"entries": [
-				"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 2d8+4}) piercing damage."
-			]
-		}
-	],
-	"damageTags": [
-		"P"
-	],
-	"miscTags": [
-		"MW"
-	],
-	"fluff": {
-		"entries": [
-			"CROCUTAS AND CROCUTOIDS",
-			"The Crocutas are legendary beasts, already registered in the very first bestiaries of the Old Tradition, written at the beginning of the Second Age. Much of the information about them comes from the Ejre, who most often found themselves facing them. According to them, these large beasts are native to unknown lands to the south and east of the Known Lands.",
-			"Unknown Crossbreeds. No one knows exactly what the origin of these beasts, half hyenas and half wolves, is. They probably are some kind of evolved predators that migrated towards the end of the First Age to settle in the lowlands of Aresya. According to the Ejre, who are accustomed to interacting with beasts, the Crocutas are completely indomitable, which is considered quite unfortunate , as they fight with extreme ferocity and are formidable trackers ."
-		],
-		"images": [
-			{
-				"type": "image",
-				"href": {
-					"type": "external",
-					"url": "https://bakkoh.github.io/homebrew/tokens/monsters/crocuta-image.png"
-				}
-			}
-		]
-	},
-	"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/crocuta.png"
-}
-				]
-			}
-		},
-		{
+						"name": "Crocuta",
+						"size": [
+							"L"
+						],
+						"type": "monstrosity",
+						"source": "nfb",
+						"alignment": [
+							"U"
+						],
+						"ac": [
+							13
+						],
+						"hp": {
+							"formula": "6d10 + 18",
+							"average": 51
+						},
+						"speed": {
+							"walk": 50
+						},
+						"str": 19,
+						"dex": 16,
+						"con": 16,
+						"int": 5,
+						"wis": 12,
+						"cha": 9,
+						"passive": 13,
+						"cr": "2",
+						"page": 133,
+						"senses": [
+							"darkvision 60 ft."
+						],
+						"senseTags": [
+							"D"
+						],
+						"save": {
+							"dex": "+5"
+						},
+						"skill": {
+							"perception": "+3"
+						},
+						"resist": [
+							{
+								"resist": [
+									"bludgeoning",
+									"piercing",
+									"slashing"
+								],
+								"preNote": "(only during descending moon)"
+							}
+						],
+						"trait": [
+							{
+								"name": "Favored Terrain",
+								"entries": [
+									"The Crocuta’s favored terrain is cultivated fields/plains."
+								]
+							},
+							{
+								"name": "Keen Senses",
+								"entries": [
+									"The Crocuta has advantage on Wisdom (Perception) checks that rely on sight or smell."
+								]
+							},
+							{
+								"name": "Pack Tactics",
+								"entries": [
+									"The Crocuta has advantage on an attack roll against a creature if at least one of the Crocuta’s allies is within 5 feet of the creature and the ally isn’t {@condition incapacitated}."
+								]
+							}
+						],
+						"environment": [
+							"grassland",
+							"hill"
+						],
+						"traitTags": [
+							"Keen Senses",
+							"Pack Tactics"
+						],
+						"action": [
+							{
+								"name": "Bite",
+								"entries": [
+									"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}5 ({@damage 2d8+4}) piercing damage."
+								]
+							}
+						],
+						"damageTags": [
+							"P"
+						],
+						"miscTags": [
+							"MW"
+						],
+						"fluff": {
+							"entries": [
+								"CROCUTAS AND CROCUTOIDS",
+								"The Crocutas are legendary beasts, already registered in the very first bestiaries of the Old Tradition, written at the beginning of the Second Age. Much of the information about them comes from the Ejre, who most often found themselves facing them. According to them, these large beasts are native to unknown lands to the south and east of the Known Lands.",
+								"Unknown Crossbreeds. No one knows exactly what the origin of these beasts, half hyenas and half wolves, is. They probably are some kind of evolved predators that migrated towards the end of the First Age to settle in the lowlands of Aresya. According to the Ejre, who are accustomed to interacting with beasts, the Crocutas are completely indomitable, which is considered quite unfortunate , as they fight with extreme ferocity and are formidable trackers ."
+							],
+							"images": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://bakkoh.github.io/homebrew/tokens/monsters/crocuta-image.png"
+									}
+								}
+							]
+						},
+						"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/crocuta.png"
+					},
+					{
 			"name": "Cursed Fanatic",
 			"size": [
 				"M"

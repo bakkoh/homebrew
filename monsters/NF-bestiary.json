@@ -2500,7 +2500,7 @@
 				{
 					"name": "Short sword",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6+3}) bludgeoning damage."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6+3}) piercing damage."
 					]
 				},
 				{
@@ -2534,6 +2534,170 @@
 						"href": {
 							"type": "external",
 							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/lyvar-image.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Bleak Dryad",
+			"size": [
+				"M"
+			],
+			"type": "plant",
+			"source": "nfb",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 16,
+					"condition": "with barkskin",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 8",
+				"average": 26
+			},
+			"speed": {
+				"walk": 0,
+				"fly": {
+					"number": 20,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 14,
+			"int": 13,
+			"wis": 16,
+			"cha": 19,
+			"passive": 15,
+			"cr": "2",
+			"page": 142,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Wild Jargon",
+				"Primordial Runic"
+			],
+			"languageTags": [
+				"P"
+			],
+			"save": {
+				"cha": "+6"
+			},
+			"skill": {
+				"deception": "+6",
+				"stealth": "+4",
+				"perception": "+5"
+			},
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"poison"
+			],
+			"trait": [
+				{
+					"name": "Favored Terrain",
+					"entries": [
+						"The Bleak Dryad’s favored terrain is woods."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The Bleak Dryad’s has advantage on saving throws against spells or magical effects."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Bleak Dryad's spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to spell attacks). The Bleak Dryad can innately cast the following spells, requiring only verbal components:"
+					],
+					"will": [
+						"{@spell druidcraft}",
+						"{@spell mage hand}",
+						"{@spell prestidigitation}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell charm person}",
+							"{@spell faerie fire}",
+							"{@spell misty step}",
+							"{@spell ray of enfeeblement}"
+						],
+						"1e": [
+							"{@spell barkskin}",
+							"{@spell call lightning}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTagsSpell": [
+				"L"
+			],
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"action": [
+				{
+					"name": "Dark Spores",
+					"entries": [
+						"The Bleak Dryad produces poisonous spores in a sphere of 10-foot radius centered on her. Each creature in the sphere must make a {@dc 13} Constitution saving throw, taking 7 ({@damage 2d6}) poison damage on a failed save or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Grim Charm",
+					"entries": [
+						"The Bleak Dryad targets one humanoid or beast that she can see within 30 feet of it. If the target can see the Bleak Dryad, it must succeed on a {@dc 13} Wisdom saving throw or be magically {@condition charmed}. ",
+						"The {@condition charmed} creature regards the Bleak Dryad as its master to be heeded and protected. Although the target isn't under the dryad's control, it takes the Bleak Dryad's requests or actions in the most favorable way it can.",
+						"At the end of each of its next turns, if the Bleak Dryad is within 5 feet of it, a {@condition charmed} creature donates its blood to the Bleak Dryad, losing 7 ({@dice 2d6}) hit points. The Bleak Dryad then regains as much hit points up to her maximum. Each time the Bleak Dryad or her allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts until the target creature, or the Bleak Dryad, dies, is on a different plane of existence from the target or ends the effect as a bonus action.",
+						"If a target's saving throw is successful, the target is immune to the Bleak Dryad's grim charm for the next 24 hours. The Bleak Dryad can have no more than one humanoid and up to three beasts {@condition charmed} at a time."
+					]
+				}
+			],
+			"damageTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/bleak-dryad.png",
+			"environment": [
+				"forest"
+			],
+			"fluff": {
+				"entries": [
+					"The Dryads in the Forgotten Woods.",
+					"The forests of Iùrmen are home to dangerous beings, distorted reflections of what in past ages were wild animals. In these places, nature is still alive, but no longer uncontaminated. Brambles, branches and roots attack those who violate the boundaries of the woods, and the old daughters of the forest now appear as creatures disfigured by hatred, their beauty lost forever. ",
+					"The dryads were protectors of the trees that they called home. As they are spirits of the earth, their appearance shows the same mortality that is rampant in the natural world, and their perfect faces are now tough and grim, and their souls have become bleak and cruel."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/bleak-dryad-image.png"
 						}
 					}
 				]

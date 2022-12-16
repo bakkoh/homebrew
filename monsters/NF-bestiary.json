@@ -2813,6 +2813,151 @@
 }
 				]
 			}
+		},
+		{
+			"name": "Cursed Fanatic",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"source": "nfb",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d8 + 15",
+				"average": 37
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 15,
+			"dex": 13,
+			"con": 16,
+			"int": 10,
+			"wis": 10,
+			"cha": 14,
+			"passive": 10,
+			"cr": "2",
+			"page": 52,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"First Tongue",
+				"Whisper of the Echoes"
+			],
+			"languageTags": [
+				"C"
+			],
+			"skill": {
+				"intimidation": "+4",
+				"religion": "+2"
+			},
+			"resist": [
+				{
+					"resist": [
+						"necrotic"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from weapons that aren’t magical"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Dark Resistance",
+					"entries": [
+						"The Cursed Fanatic has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+					]
+				},
+				{
+					"name": "Fanatical Attack",
+					"entries": [
+						"The Cursed Fanatic gains strength from the dark powers it serves. On each of their turns, they can have advantage on one of their attacks. If they hit, target creature suffers additional 7 ({@damage 2d6}) damage."
+					]
+				},
+				{
+					"name": "Vile Foe",
+					"entries": [
+						"When a living creature that isn’t {@condition blinded} is in front of the Cursed Fanatic within 60 feet, that creature must make a {@dc 11} Wisdom saving throw, losing 2 Soul Points on a failed save. If that creature sees again the same or other Cursed Fanatics, it’s immune to the Vile Foe effect for the next 24 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Cursed Fanatic makes three attacks. Two with their longsword and one with their bite."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 feet, one target. {@h}7 ({@damage 2d4+2}) bludgeoning damage. "
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8+2}) slashing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"UNHOLY SACRAMENT",
+					"Since Iùrmen fell into the darkness of Ènferun, many have allowed themselves to be ensnared by evil. Succumbing to a promise of power and with the ambition to reunite with the cosmic One of Sidìr after the annihilation of the Material Plane.",
+					"The oath of the damned. When someone wishes to join the Unholy Sacrament, they must undergo a risky ritual of invocation of the Echoes, and be ready to have their soul torn apart. The acolyte takes their own life and allowstheir body to welcome the deepest darkness, becoming a pathway to the Dark Mirror. This rite, just like the creation of portals to Ènferun, involves the engraving of indecipherable symbols on the flesh of the dead, perhaps a kind of written form of the Whispers of the Echoes. This form of high necromantic art causes the acolyte to be reborn and join the cult that worships Lagoran and the Echoes of Death.",
+					"A macabre silence. The cultists of the Unholy Sacramentsew their lips and harbor dark presences in their body as a replacement of the soul they have lost. They express themselves only through the Whisper of the Echoes, which they utter without moving either tongue or lips. Others think this makestheir figure even more disturbing, this way of communicating symbolizes their ultimate goal of annihilation of life: a world in which silence will never end.",
+					"The very face of dark cultists. The hierarchy of this religion provides for various forms of adepts, among which the Fanatics are the most common. They are either newly co-opted or undead acolytes who performed the rite decades ago. Beyond them, we know the power and threat of those who stand as black priests of Lagoran, namely the Profane Sorcerers. These horrible beings devoted to evil move the ranks of the Fanatics to carry out Lagoran's plans. The most notorious and ancient among them is known as Marekur, who witnessed the rebirth of the Archmaester during the Last Sun. Nature of the undead.Followers of the Unholy Sacrament do not need to breathe, eat, drink, orsleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/elite-fanatic-image.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/elite-fanatic.png"
 		}
 	]
 }

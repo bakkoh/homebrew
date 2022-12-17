@@ -2958,6 +2958,109 @@
 				]
 			},
 			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/elite-fanatic.png"
+		},
+		{
+			"name": "Garnar Bear Warrior",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"source": "nfb",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d8 + 21",
+				"average": 52
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 16,
+			"int": 9,
+			"wis": 12,
+			"cha": 8,
+			"passive": 13,
+			"cr": "2",
+			"languages": [
+				"common",
+				"primordial runic"
+			],
+			"skill": {
+				"athletics": "+5",
+				"survival": "+3",
+				"perception": "+3"
+			},
+			"trait": [
+				{
+					"name": "Rash",
+					"entries": [
+						"At the beginning of their turn, a Garnar Bear Warrior can have Advantage on any attack roll made with melee weapons in that turn, but any attack roll made against them has Advantage until the beginning of their next turn."
+					]
+				},
+				{
+					"name": "Sturdy arms",
+					"entries": [
+						"By virtue of their superior strength, Garnar Bear Warriors can wield greatswords, mauls or greataxes with one hand; held with one hand, these weapons deal {@damage 1d10} damage"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 feet, one target. {@h}8 ({@damage 1d10+3}) slashing damage. "
+					]
+				}
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"A Garnar Bear Warrior add 2 to their AC against any melee attack dealt by attackers they can see."
+					]
+				},
+				{
+					"name": "Alpha Beast",
+					"entries": [
+						"When the Garnar Bear Warrior takes melee damage lower than 5, they can use their Reaction to make a melee attack against the attacker."
+					]
+				}
+			],
+			"actionTags": [
+				"Parry"
+			],
+			"fluff": {
+				"entries": [
+					"Alper’s vampires often make slaves out of captive Garnars, whose curse makes them an excellent entertainment in Murian’s Acolyte’s arenas."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/garnar-bear-warrior-image.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/garnar-bear-warrior.png"
 		}
 
 	]

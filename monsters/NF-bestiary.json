@@ -3061,6 +3061,164 @@
 				]
 			},
 			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/garnar-bear-warrior.png"
+		},
+		{
+			"name": "Lemure",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"source": "nfb",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 24",
+				"average": 60
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 16,
+			"dex": 10,
+			"con": 16,
+			"int": 9,
+			"wis": 10,
+			"cha": 13,
+			"passive": 12,
+			"cr": "2",
+			"page": 17,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"The languages it knew in life but can’t speak"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"skill": {
+				"athletics": "+5",
+				"perception": "+2"
+			},
+			"save": {
+				"con": "+5"
+			},
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from weapons that aren’t grim weapons"
+				}
+			],
+			"immune": [
+				{
+					"immune": [
+						"necrotic",
+						"poison"
+					],
+					"preNote": "(only during new moon)"
+				},
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"preNote": "(only during new moon)",
+					"note": "from weapons that aren’t grim weapons"
+				}
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Bless of the Dark Moon",
+					"entries": [
+						"During the new moon, the Lemure is immune to bludgeoning, piercing, and slashing damage from weapons that aren’t grim weapons."
+					]
+				},
+				{
+					"name": "Death by Fire",
+					"entries": [
+						"When the Lemure reaches 0 hit points, it becomes {@condition unconscious} and regenerates 6 hit points at the start of each of its next turn. When it reaches 12 hit points, it’s no longer {@condition unconscious} and can take actions. The Lemure can die only if fire damage takes it to 0 hit points or if it’s burned while {@condition unconscious}."
+					]
+				},
+				{
+					"name": "Favored Terrain",
+					"entries": [
+						"The Lemure’s favored terrain is graveyard."
+					]
+				},
+				{
+					"name": "Moonlight Sensitivity",
+					"entries": [
+						"During full, waxing or waning moon, the Lemure has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Vile Foe",
+					"entries": [
+						"When a living creature that isn’t {@condition blinded} is in front of the Lemure within 60 feet of it, that creature must make a {@dc 14} Wisdom saving throw, losing 2 Soul Points on a failed save. If that creature sees again the same or other Lemures, it’s immune to the Vile Foe effect Str the next 24 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Lemure makes two Life Drain attacks"
+					]
+				},
+				{
+					"name": "Life Drain",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8+3}) necrotic damage.",
+						"On a hit, target creature must make a {@dc 14} Wisdom Saving throw. On a failed save, it loses 2 ({@dice 1d4}) Soul Points."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"Lost souls. In creatures like the Lemures, on the other hand, we can see a glimmer of reasoning: a vague awareness of having lived once, and a desperate search for their lost identity.",
+					"These undead attack those they meet with the aim of feeding on their vital essence, as if for an unconscious need to find their own lost soul by stealing that of others. Although they are not really able to tear the soul away from their victims, they can wear their spirit to the brink of death, making them susceptible to possession or leading them to death and loss of soul, which gives rise to their rebirth as new Lemures. These daytime beings repudiate the moonlight and at night tend to remain in stasis in dark places, and then move when the pale satellite sets."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/lemure-image.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/lemure.png"
 		}
 
 	]

@@ -18,7 +18,7 @@
 	"spell": [
 		{
 			"name": "Amuleto della Dea Triplice",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 190,
 			"level": 0,
 			"school": "T",
@@ -71,7 +71,7 @@
 		},
 		{
 			"name": "Bacio di Mirithlen",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 190,
 			"level": 1,
 			"school": "V",
@@ -134,7 +134,7 @@
 		},
 		{
 			"name": "Benedizione della Luna (Rituale)",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 190,
 			"level": 1,
 			"school": "A",
@@ -190,7 +190,7 @@
 		},
 		{
 			"name": "Canto del Risanamento Lunare (rituale)",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 193,
 			"level": 2,
 			"school": "V",
@@ -250,7 +250,7 @@
 		},
 		{
 			"name": "Faro Lunare",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 191,
 			"level": 1,
 			"school": "V",
@@ -302,7 +302,7 @@
 		},
 		{
 			"name": "Fortuna della Luna",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 193,
 			"level": 2,
 			"school": "D",
@@ -371,7 +371,7 @@
 		},
 		{
 			"name": "Gelido tranello",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 188,
 			"level": 0,
 			"school": "I",
@@ -448,7 +448,7 @@
 		},
 		{
 			"name": "Glifo di Mirithlen",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 189,
 			"level": 0,
 			"school": "A",
@@ -503,7 +503,7 @@
 		},
 		{
 			"name": "Globo dell’Eclissi",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 189,
 			"level": 0,
 			"school": "N",
@@ -578,7 +578,7 @@
 		},
 		{
 			"name": "Goccia d’Argento",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 189,
 			"level": 0,
 			"school": "C",
@@ -639,7 +639,7 @@
 		},
 		{
 			"name": "Infusione di Luce Lunare",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 189,
 			"level": 0,
 			"school": "V",
@@ -697,7 +697,7 @@
 		},
 		{
 			"name": "Lama delle Quattro Lune",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 193,
 			"level": 2,
 			"school": "T",
@@ -767,7 +767,7 @@
 		},
 		{
 			"name": "Lucore",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 191,
 			"level": 1,
 			"school": "D",
@@ -830,7 +830,7 @@
 		},
 		{
 			"name": "Malia Lunare",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 192,
 			"level": 1,
 			"school": "E",
@@ -894,7 +894,7 @@
 		},
 		{
 			"name": "Manto Lunare",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 193,
 			"level": 2,
 			"school": "A",
@@ -969,7 +969,7 @@
 		},
 		{
 			"name": "Novilunio",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 193,
 			"level": 2,
 			"school": "V",
@@ -1040,7 +1040,7 @@
 		},
 		{
 			"name": "Orrore",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 192,
 			"level": 1,
 			"school": "N",
@@ -1105,7 +1105,7 @@
 		},
 		{
 			"name": "Pioggia Lunare",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 192,
 			"level": 1,
 			"school": "C",
@@ -1173,7 +1173,7 @@
 		},
 		{
 			"name": "Plenilunio",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 193,
 			"level": 2,
 			"school": "V",
@@ -1237,7 +1237,7 @@
 		},
 		{
 			"name": "Prezzo dei Ricordi",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 194,
 			"level": 2,
 			"school": "E",
@@ -1303,7 +1303,7 @@
 		},
 		{
 			"name": "Rune Lunari",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 192,
 			"level": 1,
 			"school": "I",
@@ -1357,7 +1357,7 @@
 		},
 		{
 			"name": "Scala di Luna",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": "192-193",
 			"level": 1,
 			"school": "T",
@@ -1423,7 +1423,7 @@
 		},
 		{
 			"name": "Seduzione del Chiaro di Luna",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 190,
 			"level": 0,
 			"school": "E",
@@ -1481,7 +1481,7 @@
 		},
 		{
 			"name": "Sguardo della Dea Triplice",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 190,
 			"level": 0,
 			"school": "D",
@@ -1531,7 +1531,7 @@
 		},
 		{
 			"name": "Sudario del Novilunio",
-			"source": "Nightfell",
+			"source":"NF",
 			"page": 194,
 			"level": 2,
 			"school": "N",
@@ -1584,6 +1584,395 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Litania Selenita",
+			"level": 3,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"L’incantatore evoca nel cielo un disco lunare ipnotico in grado di imprigionare nel suo bagliore chiunque possa vederlo in un cubo di 6 metri di lato. Ogni creatura all’interno del cubo deve superare un Tiro Salvezza su Saggezza o divenire {@condition charmed}, e con movimento pari 0 finché rimane Affascinato.",
+				"Per tutta la Durata dell’incantesimo, l’incantatore non può muoversi volontariamente dalla sua posizione e deve continuare a sostenere la magia dell’incantesimo con la propria voce."
+			],
+			"source": "nfb",
+			"page": 195,
+			"components": {
+				"s": true,
+				"m": "un ciottolo dipinto di bianco"
+			}
+		},
+		{
+			"name": "Lucentezza di Mirithlen",
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Tenue ma costante luce lunare si sprigiona in un raggio di 18 metri (60 ft.) dall’incantatore o da un oggetto da esso toccato: la luce è da considerarsi luce fioca. Oggetti e creature invisibili illuminate dalla luce fioca di questo incantesimo vengono rivelati e non possono diventare invisibili mentre si trovano all’interno dell’area."
+			],
+			"source": "nfb",
+			"page": 195,
+			"components": {
+				"v": true,
+				"s": true
+			}
+		},
+		{
+			"name": "Lunamorfosi",
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"L’incantatore rende una creatura, e tutto ciò che indossa e trasporta, traslucida ed eterea, visibile solo se colpita direttamente dalla luce lunare, da cui trae vigore. ",
+				"A condizione che finisca il turno illuminato dalla luce lunare, il bersaglio ottiene {@dice 2d6} Punti Ferita Temporanei e ignora ogni penalità derivante da terreno Difficile, posto che anche questo sia illuminato dalla luna. ",
+				"Quando invece si trova in una zona d’ombra o di luce non di origine lunare, il bersaglio dispone di +5 alle prove di Destrezza (Furtività) e ignora ogni Svantaggio nelle prove di Saggezza (Percezione) basate sulla vista in zone di oscurità o luce fioca."
+			],
+			"source": "nfb",
+			"page": 196,
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "una biglia di vetro"
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"se l’incantesimo è lanciato utilizzando uno slot incantesimo di 4° Livello o superiore, i Punti Ferita Temporanei aumentano di {@dice 1d6} per ogni Livello di slot superiore al 3°."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pozzo Lunare",
+			"level": 3,
+			"school": "D",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "unlimited"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"L’incantatore incanala la magia della Luna verso lo specchio d’acqua trasformandolo in una finestra affacciata su uno tra i luoghi presso cui ha compiuto lo stesso rituale precedentemente, e attraverso questa finestra è possibile vedere e comunicare, ma non trasmettere persone, oggetti o incantesimi.",
+				"Al primo tentativo di celebrazione di questo rituale, lo specchio d’acqua non rifletterà altro che il nero assoluto del volto oscuro della Luna; lo stesso risultato si avrà se lo specchio d’acqua usato precedentemente è stato infranto o disseccato."
+			],
+			"source": "nfb",
+			"page": 196,
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "uno specchio d’acqua abbastanza grande da riflettere la luna, candele e incensi per 100 mo consumati dall’incantesimo",
+					"consume": true,
+					"cost": 100
+				}
+			},
+			"meta": {
+				"ritual": true
+			}
+		},
+		{
+			"name": "Scudo dell’Eclissi",
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"La gelida oscurità della Luna in eclissi avvolge il corpo dell’incantatore in un’aura protettiva. Quando l’incantatore viene attaccato in mischia, l’attaccante deve superare un Tiro Salvezza su Saggezza o subire {@dice 1d6} danni radiosi e {@dice 1d6} danni da freddo (successo dimezza i danni)."
+			],
+			"source": "nfb",
+			"page": 196,
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "un piccolo specchio"
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"se l’incantesimo è lanciato utilizzando uno slot incantesimo di 4° Livello o superiore, il danno da freddo aumenta di {@dice 1d6} per ogni Livello di slot superiore al 3°."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold",
+				"radiant"
+			],
+			"savingThrow": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Tocco Argenteo",
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Le mani dell’incantatore brillano di luce lunare e irradiano un tenue calore. Spendendo un’azione durante il suo turno, l’incantatore può toccare una creatura consenziente (diversa da sé stesso) e trasferire energie vitali dal proprio corpo a quello del bersaglio. L’incantatore subisce danni necrotici pari a {@dice 1d6} sommato al modificatore di Caratteristica da incantatore, mentre il bersaglio recupera un ammontare di Punti Ferita pari al doppio dei danni subiti dall’incantatore; eventuali Punti Ferita in eccesso vengono acquisiti dal bersaglio come Punti Ferita Temporanei."
+			],
+			"source": "nfb",
+			"page": 196,
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"se l’incantesimo è lanciato utilizzando uno slot incantesimo di 4° Livello o superiore, i danni necrotici aumentano di {@dice 1d6} per ogni Livello di slot superiore al 3°."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"miscTags": [
+				"HL"
+			]
 		}
 	]
 }

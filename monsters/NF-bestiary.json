@@ -3219,6 +3219,157 @@
 				]
 			},
 			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/lemure.png"
+		},
+		{
+			"name": "Lyvar Marauder",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"lyvar"
+				]
+			},
+			"source": "NFB",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d6 + 20",
+				"average": 55
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 8,
+			"dex": 17,
+			"con": 14,
+			"int": 12,
+			"wis": 14,
+			"cha": 14,
+			"passive": 14,
+			"cr": "2",
+			"page": 97,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Wild Jargon",
+				"Stone Tongue"
+			],
+			"languageTags": [
+				"C"
+			],
+			"save": {
+				"dex": "+5"
+			},
+			"skill": {
+				"stealth": "+5",
+				"deception": "+4",
+				"perception": "+4",
+				"sleight of hand": "+5"
+			},
+			"trait": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, the Lyvar Marauder can take the Dash, Disengage, or Hide Actions as a bonus action."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/turn)",
+					"entries": [
+						"The Lyvar Marauder can deal an extra 10 ({@damage 3d6}) damage to one creature it hits with a weapon attack if it has advantage on the Attack roll and it uses a finesse or a ranged weapon. It doesn't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't Incapacitated, and it doesn't have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Stealth of Darkness",
+					"entries": [
+						"The Lyvar Marauder has advantage while hiding or moving stealthy in dim light or darkness"
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of its turns, the Lyvar Marauder can take the Dash, Disengage, or Hide Actions as a bonus action."
+					]
+				}
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"damageTags": [
+				"P"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Lyvar Marauder makes two shortsword or shortbow attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6+3}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 80/120 ft., one target. {@h}6 ({@damage 1d6+3}) piercing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RNG"
+			],
+			"fluff": {
+				"entries": [
+					"Not all Night Faelings stay with their family or their nomadic community. Some Lyvars detach themselves from it, becoming sedentary and forming more or less numerous groups dedicated to banditry. Marauding Lyvars are often ruthless and treacherous, lovers of ambushes and traps. They are also masters in the art of sneaking into villages, and then proceeding to steal as much food and valuables as possible, and finally disappearing unseen.",
+					"A bad name. These rogue bands are the reason why often all the Lyvar are looked upon with distrust and driven away. One of the surest ways to understand if a group of Lyvars is engaged in robbery or simple nomadism is to check for the presence of shamans within the community, since the Marauders tend to abandon the liturgical customs of their kind.",
+					"-------------------------------------------------",
+					"CUSTOMS",
+					"Place",
+					"The Lyvar Marauders prefer the most desolate lands and establish their burrows in the most inaccessible natural ravines they can find.",
+					"Time",
+					"Unlike other faelings, they do not prefer particular moments or periods, and can strike at any time.",
+					"Gesture",
+					"Perhaps because in them the nature of primordial spirits is weaker than in other faelings, the Lyvar do not react to particular behaviors of other species, if one does not consider the hoarding of resources and riches, which constitutes an attractive target for marauders.",
+					"[x](https://bakkoh.github.io/homebrew/tokens/monsters/lyvar-image.png)"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/lyvar-image.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/lyvar.png"
 		}
 
 	]

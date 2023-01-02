@@ -3370,6 +3370,302 @@
 				]
 			},
 			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/lyvar.png"
+		},
+		{
+			"name": "Monachicchio",
+			"size": [
+				"T"
+			],
+			"type": "undead",
+			"source": "NFB",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d4 + 10",
+				"average": 35
+			},
+			"speed": {
+				"walk": 0,
+				"fly": 40
+			},
+			"str": 2,
+			"dex": 18,
+			"con": 13,
+			"int": 10,
+			"wis": 12,
+			"cha": 16,
+			"passive": 11,
+			"cr": "2",
+			"page": 24,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"understands Common but can’t speak"
+			],
+			"languageTags": [
+				"C"
+			],
+			"skill": {
+				"stealth": "+6"
+			},
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from weapons that aren’t grim weapons"
+				}
+			],
+			"immune": [
+				{
+					"immune": [
+						"necrotic",
+						"poison"
+					]
+				},
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from weapons that aren’t grim weapons (only under new moon)"
+				}
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"trait": [
+				{
+					"name": "Dark Blessing of the New Moon",
+					"entries": [
+						"The Monachicchio is immune to bludgeoning, piercing, and slashing damage during the new moon."
+					]
+				},
+				{
+					"name": "Vile Foe",
+					"entries": [
+						"When a living creature that isn’t {@condition blinded} is in front of the confined within 60 feet of it, that creature must make a {@dc 12} Wisdom saving throw, losing 1 Soul Points on a failed save. If that creature sees again the same or other Monachicchi, it’s immune to the Vile Foe effect for the next 24 hours."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Life Drain",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}15 ({@damage 34d+4}) necrotic damage plus 2 ({@dice 1d4}) Soul Points."
+					]
+				},
+				{
+					"name": "Soul of Sorrow (Recharges 6, only during new moon)",
+					"entries": [
+						"The Monachicchio emits a painful lament. Each creature that can hear it that isn’t an Undead or a Construct within 60 feet of the Monachicchio suddenly has its soul filled with sorrow and pain, and must make a {@dc 13} Wisdom saving throw, taking 13 ({@damage 3d8}) psychic damage plus 3 ({@dice 1d6}) Soul Points on a failed save, or half as much damage and Soul Points on a successful one."
+					]
+				}
+			],
+			"damageTags": [
+				"N",
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"Among the many nightmares in the Lunar Age, the Monachicchio is one of the most atrocious. Infants who died without receiving any religious blessing, or died in macabre and blasphemous circumstances, return to this world as horrifying ghosts of deformed and ravenous children.",
+					"-----------------------",
+					"The infants of evil.",
+					"Few hold the sight of a Monachicchio, and even fewer can recognize it for what it is; an undead monster that has nothing in common with the infant who was alive, and face it. The presence of one of these ghosts can wear down the psyche of the most hardened nocturnal adventurers, making them easy prey to darkness.",
+					"-----------------------",
+					"Clinging to what they were.",
+					"A Monachicchio often appears to its parents, who are usually their first victims. It seems that their vengeful spirit always returns during the first New Moon after their death, making those who failed to protect them pay.",
+					"[x](https://bakkoh.github.io/homebrew/tokens/monsters/monachicchio-image.png)"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/monachicchio-image.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/monachicchio.png"
+		},
+		{
+			"name": "Smara",
+			"size": [
+				"S"
+			],
+			"type": "undead",
+			"source": "NFB",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d6 + 6",
+				"average": 41
+			},
+			"speed": {
+				"walk": 0,
+				"fly": 30
+			},
+			"str": 10,
+			"dex": 18,
+			"con": 12,
+			"int": 13,
+			"wis": 14,
+			"cha": 10,
+			"passive": 14,
+			"cr": "2",
+			"page": 29,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"skill": {
+				"perception": "+4",
+				"stealth": "+10"
+			},
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from weapons that aren’t grim weapons."
+				}
+			],
+			"immune": [
+				"necrotic",
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"trait": [
+				{
+					"name": "Favored Terrain",
+					"entries": [
+						"The Smara’s favored terrain is dungeon/ruins."
+					]
+				},
+				{
+					"name": "Invisibility",
+					"entries": [
+						"The Smara is {@condition invisible}. It becomes visible only when it doesn’t succeed on its Soul Drain Action and when an affected creature breaks away from it (see below)."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"Each time the Smara drains Soul Points from a creature, it regains as much hit points up to its maximum. The Smara only dies when it reaches 0 hp and doesn’t regenerate at the end of its next turn."
+					]
+				},
+				{
+					"name": "Wretched Enemy",
+					"entries": [
+						"When a living creature that isn’t {@condition blinded} is in front of the Smara within 60 feet of it, that creature must make a {@dc 13} Wisdom saving throw, losing 2 Soul Points on a failed save. If that creature sees again the same or other Smara, it’s immune to the Wretched Enemy’s effect for the next 24 hours."
+					]
+				}
+			],
+			"conditionInflict": [
+				"invisible"
+			],
+			"traitTags": [
+				"Regeneration"
+			],
+			"action": [
+				{
+					"name": "Withering Touch",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6+4}) necrotic damage plus 2 ({@dice 1d4}) Soul Points."
+					]
+				},
+				{
+					"name": "Soul Drain (1/day)",
+					"entries": [
+						"The Smara tries to stick to a creature that isn’t an Undead or a Construct that it can see within 30 feet and that is taking a long rest.",
+						"Target creature musk make a {@dc 12} Charisma saving throw. On a failed save, the Smara successfully sticks to target creature and when it finishes its long rest, it doesn’t regain Soul Points losing 7 ({@dice 2d6}) Soul Points instead. The Smara remains sticked to that creature until it reaches 0 Soul Points, and when it is sticked to a creature, it cannot use its withering touch. On a successful save, the Smara doesn’t stick to target creature and becomes visible. ",
+						"When it finishes each of its next long rests, an affected creature can make another Charisma saving throw. On a successful save, the Smara is no longer sticked to that creature and becomes visible."
+					]
+				}
+			],
+			"damageTags": [
+				"N"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"fluff": {
+				"entries": [
+					"There are threats invisib le even to the most gifted psychics. Among these, one of the most disturbing is represented by the Smara. Malevolent spectre of unknown origin, we only know that they are able to feed on the darkest secrets of the unconscious. These ghastly creatures may be attracted to individuals with a fragile spirit, a dark past, or suffering some form of trauma .",
+					"--------------------",
+					"Emotion Benders. ",
+					"According to the stories, it is almost impossible to see a Smara, since only the victim can feel her presence. These ghosts focus on a person and attach themselves to them like parasites, stealing all joy from them and fueling hatred and anguish to the point of causing irreversible damage to the psyche.",
+					"--------------------",
+					"Perceiving a Smara. ",
+					"Someone targeted by a Smara can feel her influence only by realizing that their negative emotions have no cause . These ghosts can also be seen by those with an extremely low Soul Points threshold, who begin to see the darkness beyond the veil of Ènferun. One of the first symptoms caused by the influence of this creature is restless sleep.",
+					"--------------------",
+					"Loss of Soul Points. ",
+					"A nocturnal adventurer could be targeted by a Smara while resting, when attention is lower. When this happens, the victim may not understand what is happening. In some cases, the target may succeed, consciously or not, in resisting her yoke and forcing the Smara to reveal herself thanks to powerful spiritual reserves. Being entangled by a Smara has serious consequences both on one's mood and on one's abilities, as well as a slow consumption of one's spiritual defenses. Once the Smara is killed, the mood and spiritual defense of the character will return to normal.",
+					"--------------------",
+					"Summon a Smara. ",
+					"If the victim of a Smara, or their companions, suspect the presence of a parasitic spirit, they can try to make it appear with a simple ritual. This rite works only during the Ascending Moon Phases, and only if a mixture of wine and salt is poured on the feet of the afflicted. At least that's how some legends tell.",
+					"[x](https://bakkoh.github.io/homebrew/tokens/monsters/smara-image.png)"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/smara-image.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/smara.png"
 		}
 
 	]

@@ -3475,7 +3475,7 @@
 				{
 					"name": "Life Drain",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}15 ({@damage 34d+4}) necrotic damage plus 2 ({@dice 1d4}) Soul Points."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}15 ({@damage 3d4+4}) necrotic damage plus 2 ({@dice 1d4}) Soul Points."
 					]
 				},
 				{
@@ -3666,7 +3666,222 @@
 				]
 			},
 			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/smara.png"
+		},
+		{
+			"name": "Thrall of the Serpent",
+			"size": [
+				"M"
+			],
+			"type": "undead",
+			"source": "NFB",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 16",
+				"average": 52
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 14,
+			"int": 10,
+			"wis": 10,
+			"cha": 14,
+			"passive": 10,
+			"cr": "2",
+			"page": 44,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"Common",
+				"Draconic",
+				"Stone Tongue"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"save": {
+				"con": "+4"
+			},
+			"skill": {
+				"athletics": "+5",
+				"sleight of hand": "+4",
+				"religion": "+2",
+				"deception": "+2"
+			},
+			"resist": [
+				{
+					"resist": [
+						"necrotic"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from weapons that aren’t magical"
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Chaos of the Serpent",
+					"entries": [
+						"The powers of the serpent are old, almost forgotten, and hard to be mastered. When the Thrall of the Serpent casts a spell or uses Breath of the Serpent, roll a {@dice d20} to see if an unpredictable effect happens:",
+						"1-14 nothing unusual happens",
+						"15 the Thrall of the Serpent gains advantage on their attack rolls, saving throws, and ability checks until the start of their next turn",
+						"16 the Thrall of the Serpent’s armor class becomes 18 until the start of their next turn",
+						"17 the Thrall of the Serpent gains resistance to all damage until the start of their next turn",
+						"18 the Thrall of the Serpent has disadvantage on their attack rolls, saving throws, and ability checks until the start of their next turn",
+						"19 the Thrall of the Serpent is vulnerable to all damage until the start of their next turn",
+						"20 the Thrall of the Serpent recharges their Breath of the Serpent. If it’s already been recharged, the Thrall of the Serpent gains one more use of it as a bonus action until the end of its next turn."
+					]
+				},
+				{
+					"name": "Serpent’s Strength",
+					"entries": [
+						"When the Thrall of the Serpent makes a weapon attack and hits, the target takes extra 7 ({@damage 2d6}) damage. Roll {@dice 1d6} to determine the type of damage:",
+						"determine the type of damage:",
+						"1 acid",
+						"2 lightning",
+						"3 poison",
+						"4 fire",
+						"5 cold",
+						"6 necrotic"
+					]
+				},
+				{
+					"name": "Vile Foe",
+					"entries": [
+						"When a living creature that isn’t {@condition blinded} is in front of the Thrall of the Serpent within 60 feet, that creature must make a {@dc 11} Wisdom saving throw, losing 2 Soul Points on a failed save. If that creature sees again the same or other Thralls of the Serpent, it’s immune to the Vile Foe effect for the next 24 hours."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The Thrall of the Serpent’s innate spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to spell attack). They can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell guidance}",
+						"{@spell poison spray}",
+						"{@spell resistance}"
+					],
+					"daily": {
+						"3": [
+							"{@spell false life}",
+							"{@spell hold person}",
+							"{@spell suggestion}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"damageTagsSpell": [
+				"I"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Thrall of the Serpent makes three attacks: two with their claws and one bite."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 feet, one target. {@h}8 ({@damage 2d4+3}) piercing damage plus {@h}7 ({@damage 2d6}) damage (see Serpent’s Strength)."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 feet, one target. {@h}7 ({@damage 1d8+3}) slashing damage plus {@h}7 ({@damage 2d6}) damage (see Serpent’s Strength)."
+					]
+				},
+				{
+					"name": "Breath of the Serpent {@recharge 6}",
+					"entries": [
+						"The Thrall of the Serpent exhales a draconic breath in a 15-foot cone. Each creature in that area must make a {@dc 12} Constitution saving throw, taking 21 ({@damage 6d6}) damage on a failed save, or half as much damage on a successful one. Roll {@dice 1d6} to determine the type of damage:",
+						"1 acid",
+						"2 lightning",
+						"3 poison",
+						"4 fire",
+						"5 cold",
+						"6 necrotic"
+					]
+				}
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"fluff": {
+				"entries": [
+					"CULT OF THE SERPENT",
+					"\"Dragons are children of chaos, and Serpents and their Cult are children of dragons, but they cannot bear the touch of chaos, and therefore they are madmen, and as madmen they must be destroyed!\" sermon by Gherek Viitur against dragon worshippers",
+					"-------------------------",
+					"The Serpent Cult is a long-lost cult that worshipped dragons and the chaos that shaped these mythological beings. From the eternal power of the Sidereal Plane, they draw the power that animates the ancient draconic creatures, and their highest purpose is to see Iùrmen under the rule of the most ferocious of dragons: **Roghudi**.",
+					"-------------------------",
+					"Shadows from the First Age. ",
+					"The Cult was almost destroyed in the Great War of the First Age. Confident in their own power and their draconic allies, who at the time were not yet on the verge of extinction, the cultists advanced against the First Men and their empire. Under Inordhur's leadership, the dream of a dragon-dominated world came very close to becoming a reality, but not even dragons could stand against the power of the First Men in the days of their glory. The doctrine was extinguished, and the corpses of its followers were scarred and buried in the farthest corners of the earth. Curses were placed to seal those places, so that no one would ever dare to set foot there.",
+					"-------------------------",
+					"Rebirth. There was a moment, in the fabric of time that weaves the story of Iùrmen, when the eternal night began, and with it all the forgotten evils reopened their eyes. Those who were buried have returned to new life in a new era and have joined the host of dangerous nightmares that yearn for the defeat of Iùrmen. The resurrected cultists of the Serpent, as well as the undead carcasses of their draconic masters, aim at revenge against the kingdoms of men and all other living beings. They infest the same corridors where they were buried, and in darkness, they plot and perform rituals so that what remains of the dragon lineage reigns over a world of darkness and silence.",
+					"-------------------------",
+					"***Nature of the undead***. ",
+					"Cultists of the Serpent do not need to breathe, eat, drink or sleep."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://bakkoh.github.io/homebrew/tokens/monsters/thrall-of-the-serpent-image.png"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://bakkoh.github.io/homebrew/tokens/monsters/thrall-of-the-serpent.png"
 		}
+
 
 	]
 }
